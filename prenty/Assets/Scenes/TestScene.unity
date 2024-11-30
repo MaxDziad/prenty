@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!212 &242500508 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3163444453748177452, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+  m_PrefabInstance: {fileID: 3805096345769704167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +208,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2113121496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7764064165147932409, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+  m_PrefabInstance: {fileID: 3805096345769704167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2113121500
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113121496}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &731557081565277490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -346,6 +383,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Ai_Spider
       objectReference: {fileID: 0}
+    - target: {fileID: 2867488350524332808, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+      propertyPath: _material
+      value: 
+      objectReference: {fileID: 2100000, guid: 99b94a265d271fe4e986a0931ecc3155, type: 2}
+    - target: {fileID: 2867488350524332808, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+      propertyPath: _acceleration
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2867488350524332808, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+      propertyPath: _spriteRenderer
+      value: 
+      objectReference: {fileID: 242500508}
     - target: {fileID: 5184394440158649117, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -386,10 +435,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7946998159282374661, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+      propertyPath: _normalMaterial
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7946998159282374661, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+      propertyPath: _spriteRenderer
+      value: 
+      objectReference: {fileID: 242500508}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7764064165147932409, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2113121500}
   m_SourcePrefab: {fileID: 100100000, guid: 533a7f1f5c0e38540b9498dd9a809bff, type: 3}
 --- !u!1001 &6031299415808592948
 PrefabInstance:

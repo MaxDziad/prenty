@@ -5,51 +5,113 @@ using UnityEngine.AI;
 public class AiAgentSpider : MonoBehaviour, ISceneObject
 {
 	[SerializeField]
-	private AbstractPointProvider _pointProvider;
+	private FlashlightPerceptor _flashlightPerceptor;
 
 	[SerializeField]
-	private float _minimumDistanceToPathComplete = 0.1f;
+	private ChillingState _chillingState;
 
+	[SerializeField]
+	private TriggeringState _triggeringState;
+
+	[SerializeField]
+	private ChasingState _chasingState;
+
+	private AbstractAiState _currentState;
 	private NavMeshAgent _navmeshAgent;
-	private bool _isInitialized;
+	private FlashlightPerceptible _flashlightPerceptible;
+	private bool _isReady;
 
+	public FlashlightPerceptible FlashlightPerceptible => _flashlightPerceptible;
+	public NavMeshAgent Agent => _navmeshAgent;
+
+	public void Spawn()
+	{
+		OnInitialize();
+		OnGameStart();
+	}
 
 	public void OnInitialize()
 	{
 		_navmeshAgent = GetComponent<NavMeshAgent>();
-		_isInitialized = _navmeshAgent != null;
+		_currentState = _chillingState;
+		_flashlightPerceptor.OnSeeingFlashlightEvent += OnSeeingFlashlight;
+		_flashlightPerceptor.OnStopSeeingFlashlightEvent += OnStopSeeingFlashlight;
+	}
+
+	private void OnSeeingFlashlight(FlashlightPerceptible perceptible)
+	{
+		if (_flashlightPerceptible == null)
+		{
+			_flashlightPerceptible = perceptible;
+		}
+	}
+
+	private void OnStopSeeingFlashlight(FlashlightPerceptible perceptible)
+	{
+		if (_flashlightPerceptible == perceptible)
+		{
+			_flashlightPerceptible = null;
+		}
 	}
 
 	public void OnGameStart()
 	{
-		if (_isInitialized)
+		if (_navmeshAgent != null)
 		{
 			_navmeshAgent.updateRotation = false;
 			_navmeshAgent.updateUpAxis = false;
 			_navmeshAgent.enabled = true;
-			SetNextPoint();
+			_currentState.OnStart();
+			_isReady = true;
 		}
 	}
 
 	public void Update()
 	{
-		if (_isInitialized)
+		if (_isReady && _currentState != null)
 		{
-			transform.up = _navmeshAgent.velocity;
-			CheckIfDestinationReached();
+			_currentState.OnUpdate();
+			CheckTransitions();
 		}
 	}
 
-	private void CheckIfDestinationReached()
+	private void CheckTransitions()
 	{
-		if (_navmeshAgent.remainingDistance <= _minimumDistanceToPathComplete)
+		if (_currentState.SpiderState == SpiderState.Chill && FlashlightPerceptible != null)
 		{
-			SetNextPoint();
+			_chasingState.UpdateTargetTransform(FlashlightPerceptible.FlashlightSource.transform);
+			_currentState.OnFinish();
+			_currentState = _triggeringState;
+			_currentState.OnStart();
+			_triggeringState.OnAlertFinishedEvent += OnAlertFinished;
 		}
 	}
 
-	private void SetNextPoint()
+	private void OnAlertFinished()
 	{
-		_navmeshAgent.SetDestination(_pointProvider.GetNextPoint(transform.position));
+		_triggeringState.OnAlertFinishedEvent -= OnAlertFinished;
+		_currentState.OnFinish();
+
+		_chasingState.OnChaseFinishedEvent += OnChaseFinished;
+		_currentState = _chasingState;
+		_currentState.OnStart();
+	}
+
+	private void OnChaseFinished()
+	{
+		_chasingState.OnChaseFinishedEvent -= OnChaseFinished;
+		_currentState.OnFinish();
+
+		_currentState = _chillingState;
+		_currentState.OnStart();
+	}
+
+	private void OnDestroy()
+	{
+		if (_flashlightPerceptor != null)
+		{
+			_flashlightPerceptor.OnSeeingFlashlightEvent -= OnSeeingFlashlight;
+			_flashlightPerceptor.OnStopSeeingFlashlightEvent -= OnStopSeeingFlashlight;
+		}
 	}
 }

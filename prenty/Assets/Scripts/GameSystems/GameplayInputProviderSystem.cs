@@ -7,7 +7,7 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 	public Action<Vector2> OnMovementInputEvent;
 	public Action<Vector2> OnLookInputEvent;
 	
-	public Action<Boolean> OnFlashlightInputEvent;
+	public Action<bool> OnFlashlightInputEvent;
 
 	private PlayerInputActionAsset _inputActionAsset;
 
