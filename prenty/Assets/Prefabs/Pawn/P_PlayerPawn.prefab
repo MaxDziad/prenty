@@ -349,6 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260316385805500072}
   - component: {fileID: 5383382606418739321}
+  - component: {fileID: 3125729019924231060}
   m_Layer: 0
   m_Name: HandSprite
   m_TagString: Untagged
@@ -426,6 +427,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3125729019924231060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379207031783858531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7eb4f8194ff4fb47bc60e3605a5423a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteRenderer: {fileID: 5383382606418739321}
+  _flashlightOffSprite: {fileID: 8437094013394743807, guid: d14968bf82e9eee458f7c308d91e6f5a, type: 3}
+  _flashlightOnSprite: {fileID: 7431505163551591683, guid: 5a73ab87a395fe74687079bd291eb5d8, type: 3}
+  _flashlightController: {fileID: 389492016890371319}
 --- !u!1 &6519512707998109039
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,8 +473,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4321226775960093714}
-  - {fileID: 1530050911537402684}
-  - {fileID: 6011618548425370375}
+  - {fileID: 7781869689876682526}
   m_Father: {fileID: 1812407184274698128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7295295193970022318
@@ -476,7 +492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1530050911537402684
 Transform:
   m_ObjectHideFlags: 0
@@ -485,13 +501,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7295295193970022318}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1436868841247042336}
-  m_Father: {fileID: 2198497420216190434}
+  m_Father: {fileID: 7781869689876682526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6990176315585540362
 MonoBehaviour:
@@ -562,7 +578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6011618548425370375
 Transform:
   m_ObjectHideFlags: 0
@@ -571,12 +587,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7331910121860336890}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2198497420216190434}
+  m_Father: {fileID: 7781869689876682526}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &7837648749467683133
 MonoBehaviour:
@@ -894,3 +910,36 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8719418049581841954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7781869689876682526}
+  m_Layer: 0
+  m_Name: FlashlightHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7781869689876682526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8719418049581841954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.31, y: 0.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1530050911537402684}
+  - {fileID: 6011618548425370375}
+  m_Father: {fileID: 2198497420216190434}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

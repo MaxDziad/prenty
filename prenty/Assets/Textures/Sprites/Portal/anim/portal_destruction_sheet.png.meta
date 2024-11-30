@@ -1,0 +1,1492 @@
+fileFormatVersion: 2
+guid: 21837e811035aaa4e990abfd2b8d0d88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4575487579747140416
+    second: portal_destruction_sheet_0
+  - first:
+      213: 989655772503339133
+    second: portal_destruction_sheet_1
+  - first:
+      213: -1428364262300435930
+    second: portal_destruction_sheet_2
+  - first:
+      213: 7857735992710397602
+    second: portal_destruction_sheet_3
+  - first:
+      213: 5400819123797942046
+    second: portal_destruction_sheet_4
+  - first:
+      213: -2197259452204470372
+    second: portal_destruction_sheet_5
+  - first:
+      213: 1723226174995134103
+    second: portal_destruction_sheet_6
+  - first:
+      213: -6530510038598842668
+    second: portal_destruction_sheet_7
+  - first:
+      213: 3339265311434377017
+    second: portal_destruction_sheet_8
+  - first:
+      213: 3769027088722800439
+    second: portal_destruction_sheet_9
+  - first:
+      213: -7702082521064648182
+    second: portal_destruction_sheet_10
+  - first:
+      213: -1671632202687920127
+    second: portal_destruction_sheet_11
+  - first:
+      213: -8193865787539918215
+    second: portal_destruction_sheet_12
+  - first:
+      213: 8914510000856896942
+    second: portal_destruction_sheet_13
+  - first:
+      213: 3715599860052789986
+    second: portal_destruction_sheet_14
+  - first:
+      213: -9108051353660237500
+    second: portal_destruction_sheet_15
+  - first:
+      213: 6718247584554340055
+    second: portal_destruction_sheet_16
+  - first:
+      213: 2515196429418882243
+    second: portal_destruction_sheet_17
+  - first:
+      213: -8469853712132500527
+    second: portal_destruction_sheet_18
+  - first:
+      213: -7943132699954669745
+    second: portal_destruction_sheet_19
+  - first:
+      213: 2309378816509318252
+    second: portal_destruction_sheet_20
+  - first:
+      213: 3037396288920031623
+    second: portal_destruction_sheet_21
+  - first:
+      213: 3753623987750255304
+    second: portal_destruction_sheet_22
+  - first:
+      213: 8478597789051589064
+    second: portal_destruction_sheet_23
+  - first:
+      213: 1901095582099258560
+    second: portal_destruction_sheet_24
+  - first:
+      213: -6652894680210985660
+    second: portal_destruction_sheet_25
+  - first:
+      213: 5650108330970243355
+    second: portal_destruction_sheet_26
+  - first:
+      213: 7536399539028374193
+    second: portal_destruction_sheet_27
+  - first:
+      213: -2938505723717388101
+    second: portal_destruction_sheet_28
+  - first:
+      213: -881721583383758870
+    second: portal_destruction_sheet_29
+  - first:
+      213: 8980343504136351654
+    second: portal_destruction_sheet_30
+  - first:
+      213: -1787508909465686443
+    second: portal_destruction_sheet_31
+  - first:
+      213: -7292474581620991948
+    second: portal_destruction_sheet_32
+  - first:
+      213: -8343644797597129845
+    second: portal_destruction_sheet_33
+  - first:
+      213: 1978345436899115784
+    second: portal_destruction_sheet_34
+  - first:
+      213: -851171960069347673
+    second: portal_destruction_sheet_35
+  - first:
+      213: 3225282830476068363
+    second: portal_destruction_sheet_36
+  - first:
+      213: -3174230162597964779
+    second: portal_destruction_sheet_37
+  - first:
+      213: 3221320061888611434
+    second: portal_destruction_sheet_38
+  - first:
+      213: 1553764849541795656
+    second: portal_destruction_sheet_39
+  - first:
+      213: -5894679854827957781
+    second: portal_destruction_sheet_40
+  - first:
+      213: 1327412290392155206
+    second: portal_destruction_sheet_41
+  - first:
+      213: 6798294405551254429
+    second: portal_destruction_sheet_42
+  - first:
+      213: -6173469839806232358
+    second: portal_destruction_sheet_43
+  - first:
+      213: -4218767570676252682
+    second: portal_destruction_sheet_44
+  - first:
+      213: -5919533082832261101
+    second: portal_destruction_sheet_45
+  - first:
+      213: -3195395278798725312
+    second: portal_destruction_sheet_46
+  - first:
+      213: -3548860641573919040
+    second: portal_destruction_sheet_47
+  - first:
+      213: -4492391508667872355
+    second: portal_destruction_sheet_48
+  - first:
+      213: 3146351256010284548
+    second: portal_destruction_sheet_49
+  - first:
+      213: -6834218985440332186
+    second: portal_destruction_sheet_50
+  - first:
+      213: 2728830518359044392
+    second: portal_destruction_sheet_51
+  - first:
+      213: -979891049450830471
+    second: portal_destruction_sheet_52
+  - first:
+      213: 8260161951098357725
+    second: portal_destruction_sheet_53
+  - first:
+      213: 4226266551559142749
+    second: portal_destruction_sheet_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: portal_destruction_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccb5f6c94a9080c0800000000000000
+      internalID: -4575487579747140416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70f9f18ea6fbbd00800000000000000
+      internalID: 989655772503339133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2
+        width: 85
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a38bf654e6d2ce0800000000000000
+      internalID: -1428364262300435930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aefd48d0494c0d60800000000000000
+      internalID: 7857735992710397602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fdc1ad06093fa40800000000000000
+      internalID: 5400819123797942046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2
+        width: 85
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fabf77b24c181e0800000000000000
+      internalID: -2197259452204470372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 2
+        width: 85
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7967d3c73112ae710800000000000000
+      internalID: 1723226174995134103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6813358b7fe55a0800000000000000
+      internalID: -6530510038598842668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93784dacb14775e20800000000000000
+      internalID: 3339265311434377017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 2
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fa5240b264e4430800000000000000
+      internalID: 3769027088722800439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 3
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02523521c4bc1590800000000000000
+      internalID: -7702082521064648182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 3
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108ceab4e5b2dc8e0800000000000000
+      internalID: -1671632202687920127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 99
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972f47caa7a894e80800000000000000
+      internalID: -8193865787539918215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 99
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea51ebb5d93b6bb70800000000000000
+      internalID: 8914510000856896942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 99
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea00f9f266709330800000000000000
+      internalID: 3715599860052789986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 99
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449d015ec83b99180800000000000000
+      internalID: -9108051353660237500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 0
+        width: 85
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7decc7655920c3d50800000000000000
+      internalID: 6718247584554340055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 77
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4e7d393d5c7e220800000000000000
+      internalID: 2515196429418882243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 119
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d391dc8ce8057a80800000000000000
+      internalID: -8469853712132500527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 111
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f479967d4e254c190800000000000000
+      internalID: -7943132699954669745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 111
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6499d94ccf8c0020800000000000000
+      internalID: 2309378816509318252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 18
+        width: 58
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7811b2bf4dff62a20800000000000000
+      internalID: 3037396288920031623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 92
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca3d3a112d871430800000000000000
+      internalID: 3753623987750255304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 116
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c115d184c70aa570800000000000000
+      internalID: 8478597789051589064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 91
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc37170c5c026a10800000000000000
+      internalID: 1901095582099258560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 0
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d20f1798b2ca3a0800000000000000
+      internalID: -6652894680210985660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 0
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11e4f96797396e40800000000000000
+      internalID: 5650108330970243355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 22
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b23431837ba69860800000000000000
+      internalID: 7536399539028374193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 83
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb87f57fc945837d0800000000000000
+      internalID: -2938505723717388101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 96
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7bd9734ee73c3f0800000000000000
+      internalID: -881721583383758870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 106
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afa80d46d690ac70800000000000000
+      internalID: 8980343504136351654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 85
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ea3721e1e7137e0800000000000000
+      internalID: -1787508909465686443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 28
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4385ae4510debca90800000000000000
+      internalID: -7292474581620991948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 86
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83ef2b534b653c80800000000000000
+      internalID: -8343644797597129845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 98
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803036171be747b10800000000000000
+      internalID: 1978345436899115784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 88
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a62b4dac970034f0800000000000000
+      internalID: -851171960069347673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 25
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0641b265a182cc20800000000000000
+      internalID: 3225282830476068363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 10
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51494032c7ed2f3d0800000000000000
+      internalID: -3174230162597964779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64c5bc678d64bc20800000000000000
+      internalID: 3221320061888611434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 10
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f4d6106e4109510800000000000000
+      internalID: 1553764849541795656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 17
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1145447e3e13ea0800000000000000
+      internalID: -5894679854827957781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 16
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644ef47f17aeb6210800000000000000
+      internalID: 1327412290392155206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b68613eb4685e50800000000000000
+      internalID: 6798294405551254429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad803ce93ed635aa0800000000000000
+      internalID: -6173469839806232358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff77e71f3de375c0800000000000000
+      internalID: -4218767570676252682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 13
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3103c91360899dda0800000000000000
+      internalID: -5919533082832261101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fdd328ceca7a3d0800000000000000
+      internalID: -3195395278798725312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c62f959c0aefbec0800000000000000
+      internalID: -3548860641573919040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bcedd79b1d7a1c0800000000000000
+      internalID: -4492391508667872355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 0
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ed8191cc51aab20800000000000000
+      internalID: 3146351256010284548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 0
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666399fba0af721a0800000000000000
+      internalID: -6834218985440332186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 21
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821390306e0ced520800000000000000
+      internalID: 2728830518359044392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 3
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97506ee384ab662f0800000000000000
+      internalID: -979891049450830471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 62
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd74a62c78df1a270800000000000000
+      internalID: 8260161951098357725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_destruction_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 3
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d3cc37907b6aa30800000000000000
+      internalID: 4226266551559142749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
