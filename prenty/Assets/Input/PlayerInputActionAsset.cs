@@ -44,6 +44,15 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Flashlight"",
+                    ""type"": ""Button"",
+                    ""id"": ""5818fd8c-2933-4283-91ff-08ee5af49e0b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -110,6 +119,17 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""groups"": "";Keyboard"",
                     ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b2d5f7df-b893-4fdd-94c9-d55baccb445e"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Flashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -655,6 +675,7 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
         m_Gameplay_Movement = m_Gameplay.FindAction("Movement", throwIfNotFound: true);
         m_Gameplay_Look = m_Gameplay.FindAction("Look", throwIfNotFound: true);
+        m_Gameplay_Flashlight = m_Gameplay.FindAction("Flashlight", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -736,12 +757,14 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
     private List<IGameplayActions> m_GameplayActionsCallbackInterfaces = new List<IGameplayActions>();
     private readonly InputAction m_Gameplay_Movement;
     private readonly InputAction m_Gameplay_Look;
+    private readonly InputAction m_Gameplay_Flashlight;
     public struct GameplayActions
     {
         private @PlayerInputActionAsset m_Wrapper;
         public GameplayActions(@PlayerInputActionAsset wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Gameplay_Movement;
         public InputAction @Look => m_Wrapper.m_Gameplay_Look;
+        public InputAction @Flashlight => m_Wrapper.m_Gameplay_Flashlight;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -757,6 +780,9 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
             @Look.started += instance.OnLook;
             @Look.performed += instance.OnLook;
             @Look.canceled += instance.OnLook;
+            @Flashlight.started += instance.OnFlashlight;
+            @Flashlight.performed += instance.OnFlashlight;
+            @Flashlight.canceled += instance.OnFlashlight;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -767,6 +793,9 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
             @Look.started -= instance.OnLook;
             @Look.performed -= instance.OnLook;
             @Look.canceled -= instance.OnLook;
+            @Flashlight.started -= instance.OnFlashlight;
+            @Flashlight.performed -= instance.OnFlashlight;
+            @Flashlight.canceled -= instance.OnFlashlight;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -915,6 +944,7 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
+        void OnFlashlight(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

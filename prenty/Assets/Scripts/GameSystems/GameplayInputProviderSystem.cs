@@ -6,6 +6,8 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 {
 	public Action<Vector2> OnMovementInputEvent;
 	public Action<Vector2> OnLookInputEvent;
+	
+	public Action<Boolean> OnFlashlightInputEvent;
 
 	private PlayerInputActionAsset _inputActionAsset;
 
@@ -36,6 +38,16 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 		OnLookInputEvent?.Invoke(context.ReadValue<Vector2>());
 	}
 
+	public void OnFlashlight(InputAction.CallbackContext context)
+	{
+		if(context.phase == InputActionPhase.Started){
+			OnFlashlightInputEvent?.Invoke(true);
+		}
+		else if(context.phase == InputActionPhase.Canceled){
+			OnFlashlightInputEvent?.Invoke(false);
+		}
+	}
+	
 	public void Uninitialize()
 	{
 		_inputActionAsset = null;
