@@ -641,6 +641,11 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
                     ""devicePath"": ""<Keyboard>"",
                     ""isOptional"": false,
                     ""isOR"": false
+                },
+                {
+                    ""devicePath"": ""<Mouse>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
                 }
             ]
         }

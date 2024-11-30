@@ -17,7 +17,13 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 		{
 			_inputActionAsset = inputSystem.PlayerInputActions;
 			_inputActionAsset.Gameplay.AddCallbacks(this);
+			_inputActionAsset.Disable();
 		}
+	}
+
+	public void OnSceneStart()
+	{
+		_inputActionAsset.Enable();
 	}
 
 	public void OnMovement(InputAction.CallbackContext context)

@@ -388,6 +388,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8198189421175164098, guid: dae77923e96bdea40af88cf57a6f0b70, type: 3}
+      propertyPath: _cursorSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8338941190039244231, guid: dae77923e96bdea40af88cf57a6f0b70, type: 3}
       propertyPath: m_Name
       value: P_PlayerPawn

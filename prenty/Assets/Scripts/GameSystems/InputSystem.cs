@@ -22,18 +22,6 @@ public class InputSystem : MonoBehaviour, IGameSystem
 		_uiModule.actionsAsset = _actionAsset.asset;
 	}
 
-	public void SetInputActive(bool active)
-	{
-		if (active)
-		{
-			_playerInput.ActivateInput();
-		}
-		else
-		{
-			_playerInput.DeactivateInput();
-		}
-	}
-
 	public void Uninitialize()
 	{
 		_playerInput = null;
