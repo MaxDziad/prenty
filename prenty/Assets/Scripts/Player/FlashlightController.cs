@@ -3,24 +3,27 @@ using UnityEngine;
 
 public class FlashlightController : MonoBehaviour, ISceneObject
 {
+	public event Action<bool> OnFlashlightChangedEvent;
 
-    [SerializeField] private GameObject _flashlight;
-    private GameplayInputProviderSystem _gameplayInputProviderSystem;
+	[SerializeField]
+	private GameObject _flashlight;
 
+	private GameplayInputProviderSystem _gameplayInputProviderSystem;
 
-    public void OnInitialize()
-    {
-        
-        if (GameInstance.Instance.TryGetSystem(out _gameplayInputProviderSystem))
-        {
-            _gameplayInputProviderSystem.OnFlashlightInputEvent += OnFlashlight;
-        }
-        
-    }
+	public bool IsFlashlightOn { get; private set; }
 
-    public void OnFlashlight(Boolean isOn)
-    {
-        if (isOn) _flashlight.SetActive(true);
-        else _flashlight.SetActive(false);
-    }
+	public void OnInitialize()
+	{
+		if (GameInstance.Instance.TryGetSystem(out _gameplayInputProviderSystem))
+		{
+			_gameplayInputProviderSystem.OnFlashlightInputEvent += OnFlashlight;
+		}
+	}
+
+	public void OnFlashlight(bool isOn)
+	{
+		IsFlashlightOn = isOn;
+		_flashlight.SetActive(IsFlashlightOn);
+		OnFlashlightChangedEvent?.Invoke(IsFlashlightOn);
+	}
 }
