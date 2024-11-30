@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInputActionAsset.IGameplayActions
 {
 	public Action<Vector2> OnMovementInputEvent;
+	public Action<Vector2> OnLookInputEvent;
 
 	private PlayerInputActionAsset _inputActionAsset;
 
@@ -22,6 +23,11 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 	public void OnMovement(InputAction.CallbackContext context)
 	{
 		OnMovementInputEvent?.Invoke(context.ReadValue<Vector2>());
+	}
+
+	public void OnLook(InputAction.CallbackContext context)
+	{
+		OnLookInputEvent?.Invoke(context.ReadValue<Vector2>());
 	}
 
 	public void Uninitialize()
