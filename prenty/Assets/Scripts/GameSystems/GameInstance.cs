@@ -43,7 +43,7 @@ public class GameInstance : MonoBehaviour
 
 	private void GatherAllSceneObjects()
 	{
-		sceneObjects = new(FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).OfType<ISceneObject>());
+		sceneObjects = new(FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None).OfType<ISceneObject>());
 	}
 
 	private void PrepareAndStartGame()

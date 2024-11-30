@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 363c209e96fe1a347bd5ef86d5493a35
+guid: dba648d01af13224d86cc50d73132916
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3550128961954932516
-    second: barrel_1layer_0
+      213: 808738216964961417
+    second: wall2_0
+  - first:
+      213: -4529765803601533325
+    second: wall2_1
+  - first:
+      213: -28392874585301526
+    second: wall2_2
+  - first:
+      213: 6836016529111662894
+    second: wall2_3
+  - first:
+      213: -7873122708582398455
+    second: wall2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barrel_1layer_0
+      name: wall2_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 67
-        height: 63
+        x: 0
+        y: 115
+        width: 198
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42766244b77944130800000000000000
-      internalID: 3550128961954932516
+      spriteID: 984ba7a9f17393b00800000000000000
+      internalID: 808738216964961417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall2_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3766e98500a0321c0800000000000000
+      internalID: -4529765803601533325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall2_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 111
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedd03cb4d02b9ff0800000000000000
+      internalID: -28392874585301526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 198
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21466080d86ede50800000000000000
+      internalID: 6836016529111662894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall2_4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90682e13c9c0db290800000000000000
+      internalID: -7873122708582398455
       vertices: []
       indices: 
       edges: []
@@ -134,8 +234,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      barrel_1layer_0: 3550128961954932516
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

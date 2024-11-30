@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 363c209e96fe1a347bd5ef86d5493a35
+guid: 42c4cefc23fa65c4583202e50f9bb0fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3550128961954932516
-    second: barrel_1layer_0
+      213: 7311657719926386972
+    second: pipe_kurwe1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barrel_1layer_0
+      name: pipe_kurwe1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 67
-        height: 63
+        x: 4
+        y: 24
+        width: 192
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42766244b77944130800000000000000
-      internalID: 3550128961954932516
+      spriteID: c11747b15f9387560800000000000000
+      internalID: 7311657719926386972
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      barrel_1layer_0: 3550128961954932516
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
