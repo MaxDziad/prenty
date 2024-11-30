@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      koncik2_0: 888416096312880693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
