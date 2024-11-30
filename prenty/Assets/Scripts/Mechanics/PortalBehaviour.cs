@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PortalBehaviour : MonoBehaviour, ISceneObject
 {
+	public event Action OnPortalDestroyedEvent;
+
 	[SerializeField]
 	private FlashlightPerceptor _flashlightPerceptor;
 
@@ -41,6 +43,7 @@ public class PortalBehaviour : MonoBehaviour, ISceneObject
 			yield return null;
 		}
 
+		OnPortalDestroyedEvent?.Invoke();
 		Destroy(gameObject);
 	}
 
