@@ -622,6 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53c84950f5cad7044922e122857f6e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flashlightSource: {fileID: 8338941190039244231}
   _flashlightController: {fileID: 389492016890371319}
 --- !u!1 &7965042800408581048
 GameObject:

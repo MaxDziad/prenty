@@ -6,7 +6,12 @@ public class FlashlightPerceptible : MonoBehaviour, ISceneObject
 	public event Action<FlashlightPerceptible> OnDisableEvent;
 
 	[SerializeField]
+	private GameObject _flashlightSource;
+
+	[SerializeField]
 	private FlashlightController _flashlightController;
+
+	public GameObject FlashlightSource => _flashlightSource;
 
 	public void OnInitialize()
 	{
