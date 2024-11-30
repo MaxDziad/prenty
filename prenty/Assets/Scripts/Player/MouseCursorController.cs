@@ -20,7 +20,6 @@ public class MouseCursorController : MonoBehaviour, ISceneObject
 	private void OnLook(Vector2 vector)
 	{
 		transform.position += new Vector3(vector.x, vector.y, 0) * Time.deltaTime * _cursorSpeed;
-		Debug.Log(transform.position);
 	}
 
 	private void OnDestroy()
