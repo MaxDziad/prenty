@@ -16,8 +16,7 @@ public class PlayerLookController : MonoBehaviour, ISceneObject
 	{
 		if (_isInitialized)
 		{
-			var forward = _lookAtTarget.position - transform.position;
-			transform.rotation = Quaternion.LookRotation(forward, Vector3.right);
+			transform.up = (_lookAtTarget.position - transform.position).normalized;
 		}
 	}
 }
