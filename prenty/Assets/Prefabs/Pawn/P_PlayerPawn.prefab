@@ -642,6 +642,7 @@ GameObject:
   - component: {fileID: 8826235977218255846}
   - component: {fileID: 3010731785819312627}
   - component: {fileID: 3483148149265472599}
+  - component: {fileID: 6168934666549856149}
   m_Layer: 0
   m_Name: P_PlayerPawn
   m_TagString: Untagged
@@ -719,3 +720,15 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6168934666549856149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338941190039244231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9d6b44a7eb351419f329c57d3d45ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
