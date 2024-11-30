@@ -17,6 +17,7 @@ public class PlayerLookController : MonoBehaviour, ISceneObject
 		if (_isInitialized)
 		{
 			transform.up = (_lookAtTarget.position - transform.position).normalized;
+			transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z);
 		}
 	}
 }
