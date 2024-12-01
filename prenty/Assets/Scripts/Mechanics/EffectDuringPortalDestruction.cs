@@ -23,17 +23,46 @@ public class EffectDuringPortalDestruction : MonoBehaviour
 	[Range(0f, 1f)]
 	private float _maxWhiteNoiseTransparency = 0.3f;
 
+	private float _progress = 0;
+	private float _newProgress=0;
+
 	public void Start()
 	{
 		_portalBehaviour.OnPortalDestructionProgressEvent += OnPortalDestructionProgress;
 		_portalBehaviour.OnPortalDestructionEvent += OnPortalDestruction;
 	}
 
+	public void Update()
+	{
+  //       Debug.Log("Stary: " + _progress + ", Nowy: " + _newProgress); 
+		// if (_newProgress > _progress)
+		// {
+		// 	Debug.Log("Zaczynamy partikle");
+		// 	_particleSystem.Play();
+		// }
+		// else
+		// {
+		// 	Debug.Log("Koniec partikle");
+		// 	_particleSystem.Stop();
+		// }
+		// _progress = _newProgress;
+	}
+
 	private void OnPortalDestructionProgress(float progress)
 	{
 		_whiteNoiseMaterial.SetFloat("_Transparency", progress * _maxWhiteNoiseTransparency);
 		_impulseSource.GenerateImpulseWithForce(progress * _maxAmplitude);
-		_particleSystem.Play();
+		if (progress > _newProgress)
+		{
+			_particleSystem.Play();
+		}
+		else if (progress <= _newProgress)
+		{
+			_particleSystem.Pause();
+			_particleSystem.Clear();
+		}
+
+		_newProgress = progress;
 	}
 
 	private void OnPortalDestruction()
@@ -41,7 +70,6 @@ public class EffectDuringPortalDestruction : MonoBehaviour
 		_whiteNoiseMaterial.SetFloat("_Transparency", 0);
 		_portalBehaviour.OnPortalDestructionProgressEvent -= OnPortalDestructionProgress;
 		_portalBehaviour.OnPortalDestructionEvent -= OnPortalDestruction;
-		_particleSystem.Stop();
 	}
 
 	private void OnDestroy()
