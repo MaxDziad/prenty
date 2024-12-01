@@ -27,7 +27,7 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 	private NavMeshAgent _navmeshAgent;
 	private FlashlightPerceptible _flashlightPerceptible;
 	private bool _isReady;
-	private float _fadeDuration = 1.0f;
+	private float _fadeDuration = 0.3f;
 
 	public FlashlightPerceptible FlashlightPerceptible => _flashlightPerceptible;
 	public NavMeshAgent Agent => _navmeshAgent;
