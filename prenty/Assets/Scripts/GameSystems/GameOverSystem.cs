@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -10,13 +13,40 @@ public class GameOverSystem : MonoBehaviour, IGameSystem, PlayerInputActionAsset
 	private TextMeshProUGUI _durationValue;
 
 	[SerializeField]
+	private TypeWriter _durationTypeWriter;
+
+	[SerializeField]
+	private TypeWriter _durationValueTypeWriter;
+
+	[SerializeField]
 	private TextMeshProUGUI _portalsClosedValue;
+
+	[SerializeField]
+	private TypeWriter _portalsTypeWriter;
+
+	[SerializeField]
+	private TypeWriter _portalsValueTypeWriter;
 
 	[SerializeField]
 	private TextMeshProUGUI _enemiesOnMapValue;
 
 	[SerializeField]
+	private TypeWriter _enemiesTypeWriter;
+
+	[SerializeField]
+	private TypeWriter _enemiesValueTypeWriter;
+
+	[SerializeField]
 	private TextMeshProUGUI _scoreValue;
+
+	[SerializeField]
+	private TypeWriter _scoreTypeWriter;
+
+	[SerializeField]
+	private TypeWriter _scoreValueTypeWriter;
+
+	[SerializeField]
+	private TypeWriter _exitGameTypeWriter;
 
 	private PlayerPawn _playerPawn;
 	private InputSystem _inputSystem;
@@ -46,8 +76,8 @@ public class GameOverSystem : MonoBehaviour, IGameSystem, PlayerInputActionAsset
 		_inputSystem.PlayerInputActions.Gameplay.Disable();
 		UpdateEndScreenInfo();
 		_resultScreen.SetActive(true);
-		Cursor.lockState = CursorLockMode.None;
-		Cursor.visible = true;
+		GetComponentsInChildren<TypeWriter>().ToList().ForEach(writer => writer.ClearText());
+		StartCoroutine(EndScreenSequence());
 	}
 
 	private void UpdateEndScreenInfo()
@@ -59,6 +89,37 @@ public class GameOverSystem : MonoBehaviour, IGameSystem, PlayerInputActionAsset
 		_scoreValue.text = (_gameFlowSystem.DestroyedPortals * 100
 			+ _gameFlowSystem.SpawnedSpiders.Count * 10
 			+ timeSpan.Minutes).ToString();
+	}
+
+	private IEnumerator EndScreenSequence()
+	{
+		yield return WritingSequence(_durationTypeWriter);
+		yield return new WaitForSecondsRealtime(0.5f);
+		yield return WritingSequence(_durationValueTypeWriter);
+		yield return new WaitForSecondsRealtime(1f);
+		yield return WritingSequence(_portalsTypeWriter);
+		yield return new WaitForSecondsRealtime(0.5f);
+		yield return WritingSequence(_portalsValueTypeWriter);
+		yield return new WaitForSecondsRealtime(1f);
+		yield return WritingSequence(_enemiesTypeWriter);
+		yield return new WaitForSecondsRealtime(0.5f);
+		yield return WritingSequence(_enemiesValueTypeWriter);
+		yield return new WaitForSecondsRealtime(1f);
+		yield return WritingSequence(_scoreTypeWriter);
+		yield return new WaitForSecondsRealtime(0.5f);
+		yield return WritingSequence(_scoreValueTypeWriter);
+		yield return new WaitForSecondsRealtime(1f);
+		yield return WritingSequence(_exitGameTypeWriter);
+	}
+
+	private IEnumerator WritingSequence(TypeWriter typeWriter)
+	{
+		typeWriter.StartTypewriter();
+
+		while (typeWriter.IsTyping)
+		{
+			yield return null;
+		}
 	}
 
 	public void Uninitialize()
