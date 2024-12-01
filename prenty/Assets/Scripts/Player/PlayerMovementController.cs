@@ -18,6 +18,12 @@ public class PlayerMovementController : MonoBehaviour, ISceneObject
 
 	private Vector2 _cachedMovementVector;
 	private Vector3 _motionVector;
+	private Vector3 _additionalMotion;
+
+	public void AddAdditionalMotion(Vector3 motion)
+	{
+		_additionalMotion = motion;
+	}
 
 	public void OnInitialize()
 	{
@@ -36,6 +42,9 @@ public class PlayerMovementController : MonoBehaviour, ISceneObject
 		{
 			_motionVector = new Vector3(_cachedMovementVector.x, _cachedMovementVector.y);
 			_motionVector *= Time.deltaTime * _movementSpeed;
+			_motionVector += _additionalMotion;
+			_additionalMotion = Vector3.zero;
+
 			_characterController.Move(_motionVector);
 			_mouseCursorController.SetCheckedNewPosition(_mouseCursorController.transform.position + _motionVector);
 			transform.position = new Vector2(transform.position.x, transform.position.y);

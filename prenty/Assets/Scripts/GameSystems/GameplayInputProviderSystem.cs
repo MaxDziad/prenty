@@ -8,6 +8,7 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 	public Action<Vector2> OnLookInputEvent;
 	
 	public Action<bool> OnFlashlightInputEvent;
+	public Action OnDodgeInputEvent;
 
 	private PlayerInputActionAsset _inputActionAsset;
 
@@ -47,7 +48,15 @@ public class GameplayInputProviderSystem : MonoBehaviour, IGameSystem, PlayerInp
 			OnFlashlightInputEvent?.Invoke(false);
 		}
 	}
-	
+
+	public void OnDodge(InputAction.CallbackContext context)
+	{
+		if (context.phase == InputActionPhase.Performed)
+		{
+			OnDodgeInputEvent?.Invoke();
+		}
+	}
+
 	public void Uninitialize()
 	{
 		_inputActionAsset = null;

@@ -53,6 +53,15 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dodge"",
+                    ""type"": ""Button"",
+                    ""id"": ""4b6c5cec-3e9e-4ec0-b2be-913dac37b761"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -130,6 +139,17 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Flashlight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8cafabec-55d2-44f6-b994-fecf5aead4dc"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard"",
+                    ""action"": ""Dodge"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -704,6 +724,7 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         m_Gameplay_Movement = m_Gameplay.FindAction("Movement", throwIfNotFound: true);
         m_Gameplay_Look = m_Gameplay.FindAction("Look", throwIfNotFound: true);
         m_Gameplay_Flashlight = m_Gameplay.FindAction("Flashlight", throwIfNotFound: true);
+        m_Gameplay_Dodge = m_Gameplay.FindAction("Dodge", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -790,6 +811,7 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
     private readonly InputAction m_Gameplay_Movement;
     private readonly InputAction m_Gameplay_Look;
     private readonly InputAction m_Gameplay_Flashlight;
+    private readonly InputAction m_Gameplay_Dodge;
     public struct GameplayActions
     {
         private @PlayerInputActionAsset m_Wrapper;
@@ -797,6 +819,7 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         public InputAction @Movement => m_Wrapper.m_Gameplay_Movement;
         public InputAction @Look => m_Wrapper.m_Gameplay_Look;
         public InputAction @Flashlight => m_Wrapper.m_Gameplay_Flashlight;
+        public InputAction @Dodge => m_Wrapper.m_Gameplay_Dodge;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -815,6 +838,9 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
             @Flashlight.started += instance.OnFlashlight;
             @Flashlight.performed += instance.OnFlashlight;
             @Flashlight.canceled += instance.OnFlashlight;
+            @Dodge.started += instance.OnDodge;
+            @Dodge.performed += instance.OnDodge;
+            @Dodge.canceled += instance.OnDodge;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -828,6 +854,9 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
             @Flashlight.started -= instance.OnFlashlight;
             @Flashlight.performed -= instance.OnFlashlight;
             @Flashlight.canceled -= instance.OnFlashlight;
+            @Dodge.started -= instance.OnDodge;
+            @Dodge.performed -= instance.OnDodge;
+            @Dodge.canceled -= instance.OnDodge;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -1023,6 +1052,7 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         void OnMovement(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
         void OnFlashlight(InputAction.CallbackContext context);
+        void OnDodge(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

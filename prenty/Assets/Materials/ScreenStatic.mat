@@ -57,7 +57,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _GrainSize: 0
     - _Speed: 0.4
-    - _Transparency: 0
+    - _Transparency: 0.028978813
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
