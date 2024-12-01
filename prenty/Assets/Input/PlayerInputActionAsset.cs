@@ -650,6 +650,34 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""EndScreen"",
+            ""id"": ""a741b8be-a282-4b7c-b14d-085085aeea71"",
+            ""actions"": [
+                {
+                    ""name"": ""Restart"",
+                    ""type"": ""Button"",
+                    ""id"": ""701c2938-7c5e-4c86-a624-b07cee9fe2bf"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""7d1696bf-46ae-40a9-beab-729ec76affc5"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard"",
+                    ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -688,12 +716,16 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+        // EndScreen
+        m_EndScreen = asset.FindActionMap("EndScreen", throwIfNotFound: true);
+        m_EndScreen_Restart = m_EndScreen.FindAction("Restart", throwIfNotFound: true);
     }
 
     ~@PlayerInputActionAsset()
     {
         UnityEngine.Debug.Assert(!m_Gameplay.enabled, "This will cause a leak and performance issues, PlayerInputActionAsset.Gameplay.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, PlayerInputActionAsset.UI.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_EndScreen.enabled, "This will cause a leak and performance issues, PlayerInputActionAsset.EndScreen.Disable() has not been called.");
     }
 
     public void Dispose()
@@ -931,6 +963,52 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         }
     }
     public UIActions @UI => new UIActions(this);
+
+    // EndScreen
+    private readonly InputActionMap m_EndScreen;
+    private List<IEndScreenActions> m_EndScreenActionsCallbackInterfaces = new List<IEndScreenActions>();
+    private readonly InputAction m_EndScreen_Restart;
+    public struct EndScreenActions
+    {
+        private @PlayerInputActionAsset m_Wrapper;
+        public EndScreenActions(@PlayerInputActionAsset wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Restart => m_Wrapper.m_EndScreen_Restart;
+        public InputActionMap Get() { return m_Wrapper.m_EndScreen; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(EndScreenActions set) { return set.Get(); }
+        public void AddCallbacks(IEndScreenActions instance)
+        {
+            if (instance == null || m_Wrapper.m_EndScreenActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_EndScreenActionsCallbackInterfaces.Add(instance);
+            @Restart.started += instance.OnRestart;
+            @Restart.performed += instance.OnRestart;
+            @Restart.canceled += instance.OnRestart;
+        }
+
+        private void UnregisterCallbacks(IEndScreenActions instance)
+        {
+            @Restart.started -= instance.OnRestart;
+            @Restart.performed -= instance.OnRestart;
+            @Restart.canceled -= instance.OnRestart;
+        }
+
+        public void RemoveCallbacks(IEndScreenActions instance)
+        {
+            if (m_Wrapper.m_EndScreenActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IEndScreenActions instance)
+        {
+            foreach (var item in m_Wrapper.m_EndScreenActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_EndScreenActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public EndScreenActions @EndScreen => new EndScreenActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -958,5 +1036,9 @@ public partial class @PlayerInputActionAsset: IInputActionCollection2, IDisposab
         void OnRightClick(InputAction.CallbackContext context);
         void OnTrackedDevicePosition(InputAction.CallbackContext context);
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+    }
+    public interface IEndScreenActions
+    {
+        void OnRestart(InputAction.CallbackContext context);
     }
 }

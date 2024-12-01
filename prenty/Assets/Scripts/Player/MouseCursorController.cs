@@ -17,6 +17,8 @@ public class MouseCursorController : MonoBehaviour, ISceneObject
 
 	public void OnInitialize()
 	{
+		//Cursor.lockState = CursorLockMode.Locked;
+		//Cursor.visible = false;
 		transform.SetParent(null);
 
 		if (GameInstance.Instance.TryGetSystem(out _gameplayInputProviderSystem))
