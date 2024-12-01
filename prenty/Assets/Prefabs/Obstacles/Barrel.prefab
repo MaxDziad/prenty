@@ -152,13 +152,13 @@ MonoBehaviour:
   m_InstanceId: 0
   m_ShadowShape2DComponent: {fileID: 2939173033794395862}
   m_ShadowShape2DProvider:
-    rid: 8118524070018941014
+    rid: 7238745877405499465
   m_ShadowCastingSource: 2
   m_ShadowMesh:
     m_Mesh: {fileID: 0}
     m_LocalBounds:
-      m_Center: {x: -0.010002136, y: 0.09499359, z: 0}
-      m_Extent: {x: 0.26999664, y: 0.26999664, z: 0}
+      m_Center: {x: 0.000000059604645, y: 0, z: 0}
+      m_Extent: {x: 0.99, y: 0.995, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0.09
     m_FlipX: 0
@@ -167,12 +167,12 @@ MonoBehaviour:
   m_CastingOption: 1
   m_PreviousTrimEdge: 0.09
   m_PreviousEdgeProcessing: 1
-  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowCastingSource: 1
   m_PreviousShadowShape2DSource: {fileID: 2939173033794395862}
   references:
     version: 2
     RefIds:
-    - rid: 8118524070018941014
+    - rid: 7238745877405499465
       type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data: 
 --- !u!114 &1828393571511955927
