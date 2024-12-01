@@ -38,6 +38,7 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 	private List<Transform> _portalSpawnPoints;
 	private PortalBehaviour _currentPortal;
 	private PlayerPawn _playerPawn;
+	private AbyssOverlaySystem _overlaySystem;
 
 	private Coroutine _waitHandle;
 	private Coroutine _brainDisableHandle;
@@ -46,6 +47,11 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 	{
 		_spawnedSpiders.Capacity = 20;
 		_portalSpawnPoints = new(_portalSpawnPointsHolder.GetComponentsInChildren<Transform>());
+	}
+
+	public void OnSystemsInitialized()
+	{
+		GameInstance.Instance.TryGetSystem(out _overlaySystem);
 	}
 
 	public void OnSceneObjectsInitialized()
@@ -86,6 +92,11 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 		_currentPortal.OnPortalDestructionEvent -= OnPortalDestruction;
 		_waitHandle = StartCoroutine(WaitForNewPortalSpawn());
 		DestroyedPortals++;
+
+		if (_overlaySystem != null)
+		{
+			_overlaySystem.AddToTimer(-15);
+		}
 	}
 
 	private IEnumerator WaitForNewPortalSpawn()
