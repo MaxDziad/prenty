@@ -85,6 +85,7 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 	{
 		_currentPortal.OnPortalDestructionEvent -= OnPortalDestruction;
 		_waitHandle = StartCoroutine(WaitForNewPortalSpawn());
+		DestroyedPortals++;
 	}
 
 	private IEnumerator WaitForNewPortalSpawn()
