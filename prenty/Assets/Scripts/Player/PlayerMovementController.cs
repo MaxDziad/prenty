@@ -34,6 +34,7 @@ public class PlayerMovementController : MonoBehaviour, ISceneObject
 			_motionVector = new Vector3(_cachedMovementVector.x, _cachedMovementVector.y);
 			_motionVector *= Time.deltaTime * _movementSpeed;
 			_characterController.Move(_motionVector);
+			transform.position = new Vector2(transform.position.x, transform.position.y);
 			_animationController.UpdateMovementInfo(_motionVector != Vector3.zero);
 		}
 	}
