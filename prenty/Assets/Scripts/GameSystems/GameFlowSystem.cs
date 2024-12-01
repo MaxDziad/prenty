@@ -162,8 +162,6 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 		{
 			StopCoroutine(_brainDisableHandle);
 		}
-
-		Time.timeScale = 0;
 	}
 
 	public void Uninitialize()
