@@ -966,6 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animationController: {fileID: 5353442527114750060}
+  _mouseCursorController: {fileID: 8198189421175164098}
   _movementSpeed: 4
 --- !u!114 &3010731785819312627
 MonoBehaviour:

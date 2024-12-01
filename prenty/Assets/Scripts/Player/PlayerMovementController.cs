@@ -7,6 +7,9 @@ public class PlayerMovementController : MonoBehaviour, ISceneObject
 	private PlayerAnimationController _animationController;
 
 	[SerializeField]
+	private MouseCursorController _mouseCursorController;
+
+	[SerializeField]
 	private float _movementSpeed = 2f;
 
 	private GameplayInputProviderSystem _gameplayInputSystem;
@@ -34,6 +37,7 @@ public class PlayerMovementController : MonoBehaviour, ISceneObject
 			_motionVector = new Vector3(_cachedMovementVector.x, _cachedMovementVector.y);
 			_motionVector *= Time.deltaTime * _movementSpeed;
 			_characterController.Move(_motionVector);
+			_mouseCursorController.SetCheckedNewPosition(_mouseCursorController.transform.position + _motionVector);
 			transform.position = new Vector2(transform.position.x, transform.position.y);
 			_animationController.UpdateMovementInfo(_motionVector != Vector3.zero);
 		}

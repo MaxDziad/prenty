@@ -29,6 +29,11 @@ public class MouseCursorController : MonoBehaviour, ISceneObject
 	{
 		var newTargetPosition = transform.position;
 		newTargetPosition += new Vector3(vector.x, vector.y, 0) * Time.deltaTime * _cursorSpeed;
+		SetCheckedNewPosition(newTargetPosition);
+	}
+
+	public void SetCheckedNewPosition(Vector3 newTargetPosition)
+	{
 		var screenPoint = Camera.main.WorldToViewportPoint(newTargetPosition);
 
 		if (screenPoint.x >= 0 + _xRangeThreshold && screenPoint.x <= 1 - _xRangeThreshold)
