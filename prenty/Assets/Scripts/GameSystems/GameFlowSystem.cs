@@ -32,6 +32,7 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 	private float _timeForNewPortalSpawn = 4f;
 
 	public int DestroyedPortals { get; private set; } = 0;
+	public List<AiAgentSpider> SpawnedSpiders => _spawnedSpiders;
 
 	private readonly List<AiAgentSpider> _spawnedSpiders = new();
 
