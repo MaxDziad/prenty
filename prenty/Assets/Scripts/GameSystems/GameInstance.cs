@@ -7,7 +7,11 @@ public class GameInstance : MonoBehaviour
 	private List<IGameSystem> allSystems;
 	private List<ISceneObject> sceneObjects;
 
+	[SerializeField]
+	private VideoPlayingSystem _videoPlayingSystem;
+
 	public static GameInstance Instance;
+
 	public bool TryGetSystem<TType>(out TType system)
 	{
 		system = GetComponentInChildren<TType>();
@@ -46,16 +50,21 @@ public class GameInstance : MonoBehaviour
 		sceneObjects = new(FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None).OfType<ISceneObject>());
 	}
 
-	private void PrepareAndStartGame()
+	private async void PrepareAndStartGame()
 	{
 		allSystems.ForEach(s => s.Initialize());
 		allSystems.ForEach(s => s.OnSystemsInitialized());
 		sceneObjects.ForEach(o => o.OnInitialize());
 		allSystems.ForEach(s => s.OnSceneObjectsInitialized());
 		sceneObjects.ForEach(o => o.OnSceneSystemsPrepared());
+
+		await _videoPlayingSystem.PlayVideo();
+
 		allSystems.ForEach(s => s.OnSceneReady());
 		sceneObjects.ForEach(o => o.OnGameStart());
 		allSystems.ForEach(s => s.OnSceneStart());
+
+		
 	}
 
 	private void OnDestroy()
