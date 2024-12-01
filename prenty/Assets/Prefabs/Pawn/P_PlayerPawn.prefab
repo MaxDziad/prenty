@@ -119,7 +119,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    ImpulseDuration: 0.2
+    ImpulseDuration: 0.4
     ImpulseType: 0
     DissipationRate: 0.25
     RawSignal: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
     DissipationMode: 2
     DissipationDistance: 100
     PropagationSpeed: 343
-  DefaultVelocity: {x: 0, y: 0.3, z: 0.3}
+  DefaultVelocity: {x: 0.3, y: 0.5, z: 0}
 --- !u!1 &2369695114253845609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,8 +1536,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerMovementController: {fileID: 8826235977218255846}
-  _dashDuration: 0.3
-  _dashSpeed: 20
+  _playerAnimationController: {fileID: 5353442527114750060}
+  _dashDuration: 0.2
+  _dashSpeed: 8
   _dashCooldown: 4
 --- !u!1 &8719418049581841954
 GameObject:

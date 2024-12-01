@@ -13,6 +13,7 @@ public class PlayerAnimationController : MonoBehaviour
 
 	private readonly int _isMovingBool = Animator.StringToHash("IsMoving");
 	private readonly int _isFlashlightOnBool = Animator.StringToHash("IsFlashlightOn");
+	private readonly int _isDashingBool = Animator.StringToHash("IsDashing");
 
 	public void Start()
 	{
@@ -22,6 +23,11 @@ public class PlayerAnimationController : MonoBehaviour
 	private void OnFlashlightChanged(bool isActive)
 	{
 		_playerHandAnimator.SetBool(_isFlashlightOnBool, isActive);
+	}
+
+	public void UpdateIsDashingInfo(bool isDashing)
+	{
+		_playerBodyAnimator.SetBool(_isDashingBool, isDashing);
 	}
 
 	public void UpdateMovementInfo(bool isMoving)
