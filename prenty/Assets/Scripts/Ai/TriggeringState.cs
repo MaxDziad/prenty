@@ -19,7 +19,6 @@ public class TriggeringState : AbstractAiState
 	public override void OnStart()
 	{
 		_agentSpider.Agent.isStopped = true;
-		_animator.enabled = true;
 		_animator.SetTrigger(_alertTrigger);
 		_spriteRenderer.material = _normalMaterial;
 	}

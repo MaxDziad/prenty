@@ -78,8 +78,6 @@ public class ChasingState : AbstractAiState
 	{
 		StartCoroutine(FadeMaterial());
 		StopCoroutine(_chaseHandle);
-		_animator.enabled = false;
-
 	}
 
 	private IEnumerator FadeMaterial()

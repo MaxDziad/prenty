@@ -405,7 +405,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6356159887767324503}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b3bb992e96262d04b81c68fdeb957fea, type: 2}
   m_CullingMode: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
   _spiderState: 2
   _agentSpider: {fileID: 6378705344223653064}
   _animator: {fileID: 8152208554784729430}
-  _speed: 3
+  _speed: 5
   _acceleraation: 8
-  _chaseCheckTime: 3
+  _chaseCheckTime: 2
   _fadeDuration: 1
