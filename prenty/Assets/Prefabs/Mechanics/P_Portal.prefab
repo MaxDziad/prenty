@@ -237,6 +237,7 @@ MonoBehaviour:
   _impulseSource: {fileID: 5556974111583129932}
   _maxAmplitude: 0.7
   _whiteNoiseMaterial: {fileID: 2100000, guid: 38dc6b5e970486d47b868dc7a25bd541, type: 2}
+  _particleSystem: {fileID: 2859858518973548586}
   _maxWhiteNoiseTransparency: 0.2
 --- !u!114 &5556974111583129932
 MonoBehaviour:
@@ -578,5 +579,10 @@ PrefabInstance:
 --- !u!4 &1570720103814518003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1753836498453350788, guid: 3f2dd848783da2e4b9b8b7cd338aa68c, type: 3}
+  m_PrefabInstance: {fileID: 980290053118926199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2859858518973548586 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3038507769399055709, guid: 3f2dd848783da2e4b9b8b7cd338aa68c, type: 3}
   m_PrefabInstance: {fileID: 980290053118926199}
   m_PrefabAsset: {fileID: 0}
