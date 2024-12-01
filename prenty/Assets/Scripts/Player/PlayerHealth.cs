@@ -1,59 +1,67 @@
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour, ISceneObject
 {
-    [SerializeField] private Light2D _flashlightCone;
-    [SerializeField] private Light2D _flashlightInner;
-    [SerializeField] private int _fullHealth = 3;
+	public event Action OnPlayerTakeDamageEvent;
+	public event Action OnPlayerDeathEvent;
 
-    private float _flashlightConeBaseO;
-    private float _flashlightInnerBaseO;
-    private float _flashlightConeBaseI;
-    private float _flashlightInnerBaseI;
-    
-    private int _currentHealth;
-    public UnityEvent OnGameOver;
-    
-    void Start()
-    {
-        _currentHealth = _fullHealth;
-        _flashlightConeBaseO = _flashlightCone.pointLightOuterRadius;
-        _flashlightInnerBaseO = _flashlightInner.pointLightOuterRadius;
-        _flashlightConeBaseI = _flashlightCone.pointLightInnerRadius;
-        _flashlightInnerBaseI = _flashlightInner.pointLightInnerRadius;
-    }
+	[SerializeField]
+	private Light2D _flashlightCone;
 
-    void TakeDamage()
-    {
-        if (_currentHealth > 1)
-        {
-            _currentHealth--;
-            ChangeIntensity((float)_currentHealth/(float)_fullHealth);
-        }
-        else
-        {
-            OnGameOver?.Invoke();
-        }
-    }
+	[SerializeField]
+	private Light2D _flashlightInner;
 
-    void ChangeIntensity(float newValue)
-    {
-        _flashlightCone.pointLightOuterRadius = newValue * _flashlightConeBaseO;
-        _flashlightInner.pointLightOuterRadius = newValue * _flashlightInnerBaseO;
-        _flashlightCone.pointLightInnerRadius = newValue * _flashlightConeBaseI;
-        _flashlightInner.pointLightInnerRadius = newValue * _flashlightInnerBaseI;
-        
-    }
+	[SerializeField]
+	private int _fullHealth = 3;
 
-    private void OnTriggerEnter(Collider collision)
-    {
-        Debug.Log(collision.tag);
-        if (collision.CompareTag("Enemy"))
-        {
-            Debug.Log("ała kurwa");
-            TakeDamage();
-        }
-    }
+	private float _flashlightConeBaseO;
+	private float _flashlightInnerBaseO;
+	private float _flashlightConeBaseI;
+	private float _flashlightInnerBaseI;
+
+	private int _currentHealth;
+
+	public void OnInitialize()
+	{
+		_currentHealth = _fullHealth;
+		_flashlightConeBaseO = _flashlightCone.pointLightOuterRadius;
+		_flashlightInnerBaseO = _flashlightInner.pointLightOuterRadius;
+		_flashlightConeBaseI = _flashlightCone.pointLightInnerRadius;
+		_flashlightInnerBaseI = _flashlightInner.pointLightInnerRadius;
+	}
+
+	void TakeDamage()
+	{
+		if (_currentHealth > 1)
+		{
+			_currentHealth--;
+			ChangeIntensity(_currentHealth / (float)_fullHealth);
+			OnPlayerTakeDamageEvent?.Invoke();
+		}
+		else
+		{
+			OnPlayerDeathEvent?.Invoke();
+		}
+	}
+
+	private void ChangeIntensity(float newValue)
+	{
+		_flashlightCone.pointLightOuterRadius = newValue * _flashlightConeBaseO;
+		_flashlightInner.pointLightOuterRadius = newValue * _flashlightInnerBaseO;
+		_flashlightCone.pointLightInnerRadius = newValue * _flashlightConeBaseI;
+		_flashlightInner.pointLightInnerRadius = newValue * _flashlightInnerBaseI;
+
+	}
+
+	private void OnTriggerEnter(Collider collision)
+	{
+		if (collision.CompareTag("Enemy"))
+		{
+			var spiderContext = collision.GetComponent<SpiderContext>();
+			spiderContext.SpiderAgent.Destroy();
+			TakeDamage();
+		}
+	}
 }

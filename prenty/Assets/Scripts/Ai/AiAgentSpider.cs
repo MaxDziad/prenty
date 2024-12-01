@@ -41,6 +41,12 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 		_flashlightPerceptor.OnStopSeeingFlashlightEvent += OnStopSeeingFlashlight;
 	}
 
+	public void SetBrainActive(bool isActive)
+	{
+		_isReady = isActive;
+		Agent.isStopped = !isActive;
+	}
+
 	private void OnSeeingFlashlight(FlashlightPerceptible perceptible)
 	{
 		if (_flashlightPerceptible == null)
@@ -109,7 +115,7 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 		_currentState.OnStart();
 	}
 
-	private void OnDestroy()
+	public void Destroy()
 	{
 		OnSpiderDestroyEvent?.Invoke(this);
 
@@ -118,5 +124,7 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 			_flashlightPerceptor.OnSeeingFlashlightEvent -= OnSeeingFlashlight;
 			_flashlightPerceptor.OnStopSeeingFlashlightEvent -= OnStopSeeingFlashlight;
 		}
+
+		Destroy(gameObject);
 	}
 }

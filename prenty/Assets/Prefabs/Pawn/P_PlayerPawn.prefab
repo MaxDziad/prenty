@@ -228,9 +228,6 @@ MonoBehaviour:
   _flashlightCone: {fileID: 6990176315585540362}
   _flashlightInner: {fileID: 1280901378954527833}
   _fullHealth: 3
-  OnGameOver:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!136 &1199246557403431474
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1008,6 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9d6b44a7eb351419f329c57d3d45ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerHealth: {fileID: 3268678191021106354}
 --- !u!143 &184754447909193489
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1056,7 +1054,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0

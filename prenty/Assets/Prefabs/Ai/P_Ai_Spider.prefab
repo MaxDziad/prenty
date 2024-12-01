@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 8832150794820049224}
   - component: {fileID: 7750150596999860497}
   - component: {fileID: 279160228026149653}
+  - component: {fileID: 8669247282889719628}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Enemy
@@ -257,12 +258,12 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.17077363
-  m_Height: 0.7196686
+  m_Radius: 0.3
+  m_Height: 1
   m_Direction: 1
   m_Center: {x: 0.0032595396, y: 0.23143631, z: 0}
 --- !u!54 &279160228026149653
@@ -292,6 +293,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8669247282889719628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704194731867387298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d83b3686105ae40b13e99a07bc5f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spiderAgent: {fileID: 6378705344223653064}
 --- !u!1 &6356159887767324503
 GameObject:
   m_ObjectHideFlags: 0

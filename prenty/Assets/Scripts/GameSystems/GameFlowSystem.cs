@@ -33,16 +33,18 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 
 	public int DestroyedPortals { get; private set; } = 0;
 
-	private readonly HashSet<AiAgentSpider> _spawnedSpiders = new();
+	private readonly List<AiAgentSpider> _spawnedSpiders = new();
 
 	private List<Transform> _portalSpawnPoints;
 	private PortalBehaviour _currentPortal;
 	private PlayerPawn _playerPawn;
+
 	private Coroutine _waitHandle;
+	private Coroutine _brainDisableHandle;
 
 	public void Initialize()
 	{
-		_spawnedSpiders.EnsureCapacity(20);
+		_spawnedSpiders.Capacity = 20;
 		_portalSpawnPoints = new(_portalSpawnPointsHolder.GetComponentsInChildren<Transform>());
 	}
 
@@ -51,7 +53,21 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 		if (GameInstance.Instance.TryGetSystem<PlayerPawnProviderSystem>(out var system))
 		{
 			_playerPawn = system.PlayerPawn;
+			_playerPawn.PlayerHealth.OnPlayerTakeDamageEvent += OnPlayerTakeDamage;
+			_playerPawn.PlayerHealth.OnPlayerDeathEvent += OnPlayerDeath;
 		}
+	}
+
+	private void OnPlayerTakeDamage()
+	{
+		_brainDisableHandle = StartCoroutine(TemporaryAiBrainDisable());
+	}
+
+	private IEnumerator TemporaryAiBrainDisable()
+	{
+		_spawnedSpiders.ForEach(spider => spider.SetBrainActive(false));
+		yield return new WaitForSeconds(3f);
+		_spawnedSpiders.ForEach(spider => spider.SetBrainActive(true));
 	}
 
 	public void OnSceneStart()
@@ -129,11 +145,37 @@ public class GameFlowSystem : MonoBehaviour, IGameSystem
 		return point;
 	}
 
+	private void OnPlayerDeath()
+	{
+		_playerPawn.PlayerHealth.OnPlayerDeathEvent -= OnPlayerDeath;
+		GameOver();
+	}
+
+	private void GameOver()
+	{
+		if (_waitHandle != null)
+		{
+			StopCoroutine(_waitHandle);
+		}
+
+		if (_brainDisableHandle != null)
+		{
+			StopCoroutine(_brainDisableHandle);
+		}
+
+		Time.timeScale = 0;
+	}
+
 	public void Uninitialize()
 	{
 		if (_waitHandle != null)
 		{
 			StopCoroutine(_waitHandle);
+		}
+
+		if (_brainDisableHandle != null)
+		{
+			StopCoroutine(_brainDisableHandle);
 		}
 
 		_playerPawn = null;
