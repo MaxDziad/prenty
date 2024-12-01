@@ -6,6 +6,9 @@ public class PortalBehaviour : MonoBehaviour
 {
 	public event Action OnPortalDestructionEvent;
 	public event Action<PortalDestructionStage> OnPortalStageChangedEvent;
+    
+    [SerializeField]
+    private Transform _raycastSource;
 
 	[SerializeField]
 	private FlashlightPerceptor _flashlightPerceptor;
@@ -49,8 +52,16 @@ public class PortalBehaviour : MonoBehaviour
 
 	private void OnSeeingFlashlight(FlashlightPerceptible perceptible)
 	{
+		
 		StopCoroutine();
 		_currentHandle = StartCoroutine(DestroyingRoutine());
+		
+		
+	}
+
+	private bool IsFlashlightVisible(Vector3 pawnPosition)
+	{
+		
 	}
 
 	private void StopCoroutine()
