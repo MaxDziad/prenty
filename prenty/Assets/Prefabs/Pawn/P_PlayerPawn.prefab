@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 568eb4926f6d41c4faabbf943f6fd516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _flashlightPerceptible: {fileID: 7331910121860336890}
   _flashlightCone: {fileID: 6990176315585540362}
   _flashlightInner: {fileID: 1280901378954527833}
   _fullHealth: 3
