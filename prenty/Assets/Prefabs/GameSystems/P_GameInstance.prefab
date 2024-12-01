@@ -38,6 +38,7 @@ Transform:
   - {fileID: 7828088214417275102}
   - {fileID: 2272893723661039522}
   - {fileID: 8837902345406171527}
+  - {fileID: 3659971361356986410}
   m_Father: {fileID: 670179082475958027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &416831736938010499
@@ -192,7 +193,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: -399374040, guid: 0103df115223cf949b2f3dbd27bc8d50, type: 3}
+  m_Sprite: {fileID: 828950975, guid: 0103df115223cf949b2f3dbd27bc8d50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -757,6 +758,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6130d63ab2d478e47b25a1f498105667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &4958781495788306284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3659971361356986410}
+  - component: {fileID: 2044108342482201549}
+  m_Layer: 0
+  m_Name: AwarenessSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3659971361356986410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958781495788306284}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6782855907519320253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044108342482201549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958781495788306284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7688b7149c6bfa4f93f938e31947459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5705984769399151210
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spriteRenderer: {fileID: 3404331309283889965}
   _animator: {fileID: 3275629718395465004}
-  _maxTimer: 20
+  _maxTimer: 120
 --- !u!1 &5976017488347030714
 GameObject:
   m_ObjectHideFlags: 0
