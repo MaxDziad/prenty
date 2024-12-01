@@ -15,6 +15,9 @@ public class EffectDuringPortalDestruction : MonoBehaviour
 
 	[SerializeField]
 	private Material _whiteNoiseMaterial;
+	
+	[SerializeField]
+	private ParticleSystem _particleSystem;
 
 	[SerializeField]
 	[Range(0f, 1f)]
@@ -30,6 +33,7 @@ public class EffectDuringPortalDestruction : MonoBehaviour
 	{
 		_whiteNoiseMaterial.SetFloat("_Transparency", progress * _maxWhiteNoiseTransparency);
 		_impulseSource.GenerateImpulseWithForce(progress * _maxAmplitude);
+		_particleSystem.Play();
 	}
 
 	private void OnPortalDestruction()
@@ -37,6 +41,7 @@ public class EffectDuringPortalDestruction : MonoBehaviour
 		_whiteNoiseMaterial.SetFloat("_Transparency", 0);
 		_portalBehaviour.OnPortalDestructionProgressEvent -= OnPortalDestructionProgress;
 		_portalBehaviour.OnPortalDestructionEvent -= OnPortalDestruction;
+		_particleSystem.Stop();
 	}
 
 	private void OnDestroy()
