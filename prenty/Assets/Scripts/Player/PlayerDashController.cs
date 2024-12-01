@@ -9,6 +9,9 @@ public class PlayerDashController : MonoBehaviour, ISceneObject
 	private PlayerMovementController _playerMovementController;
 
 	[SerializeField]
+	private PlayerAnimationController _playerAnimationController;
+
+	[SerializeField]
 	private float _dashDuration = 0.3f;
 
 	[SerializeField]
@@ -52,6 +55,7 @@ public class PlayerDashController : MonoBehaviour, ISceneObject
 		_isDashing = true;
 		_dashTimer = 0;
 		Vector3 cachedInput = _cachedInput;
+		_playerAnimationController.UpdateIsDashingInfo(true);
 
 		while (_dashTimer < _dashDuration)
 		{
@@ -61,6 +65,7 @@ public class PlayerDashController : MonoBehaviour, ISceneObject
 			yield return null;
 		}
 
+		_playerAnimationController.UpdateIsDashingInfo(false);
 		_isDashing = false;
 		yield return CooldownRoutine();
 	}
