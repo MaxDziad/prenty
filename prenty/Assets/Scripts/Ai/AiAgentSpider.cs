@@ -1,9 +1,12 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class AiAgentSpider : MonoBehaviour, ISceneObject
 {
+	public event Action<AiAgentSpider> OnSpiderDestroyEvent;
+
 	[SerializeField]
 	private FlashlightPerceptor _flashlightPerceptor;
 
@@ -108,6 +111,8 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 
 	private void OnDestroy()
 	{
+		OnSpiderDestroyEvent?.Invoke(this);
+
 		if (_flashlightPerceptor != null)
 		{
 			_flashlightPerceptor.OnSeeingFlashlightEvent -= OnSeeingFlashlight;
