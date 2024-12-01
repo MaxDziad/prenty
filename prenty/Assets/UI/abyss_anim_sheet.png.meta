@@ -367,20 +367,20 @@ TextureImporter:
       name: abyss_anim_sheet_0
       rect:
         serializedVersion: 2
-        x: 1891
-        y: 5119
-        width: 36
-        height: 281
+        x: 0
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73c842cd3ad1b3920800000000000000
-      internalID: 2971000968791231543
+      spriteID: 9c0876a3f5050994aad1b20171e072b4
+      internalID: 828950975
       vertices: []
       indices: 
       edges: []
@@ -389,20 +389,20 @@ TextureImporter:
       name: abyss_anim_sheet_1
       rect:
         serializedVersion: 2
-        x: 2851
-        y: 5114
-        width: 36
-        height: 279
+        x: 960
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 871233e48c4b43510800000000000000
-      internalID: 1528044945983873400
+      spriteID: fe056a91e57eca3459435105551097f5
+      internalID: 580072457
       vertices: []
       indices: 
       edges: []
@@ -411,20 +411,20 @@ TextureImporter:
       name: abyss_anim_sheet_2
       rect:
         serializedVersion: 2
-        x: 3811
-        y: 5124
-        width: 36
-        height: 275
+        x: 1920
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 285fd32caf36cb790800000000000000
-      internalID: -7513020149709015678
+      spriteID: dc34740ec4e010946a2a1dbeed47bf7f
+      internalID: -1374756411
       vertices: []
       indices: 
       edges: []
@@ -433,20 +433,20 @@ TextureImporter:
       name: abyss_anim_sheet_3
       rect:
         serializedVersion: 2
-        x: 4771
-        y: 5117
-        width: 36
-        height: 283
+        x: 2880
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 65a2ebbb5ea3a8c50800000000000000
-      internalID: 6668206956647164502
+      spriteID: 5706ffa00d51e7749a375251071a4aae
+      internalID: 1791699268
       vertices: []
       indices: 
       edges: []
@@ -455,20 +455,20 @@ TextureImporter:
       name: abyss_anim_sheet_4
       rect:
         serializedVersion: 2
-        x: 5731
-        y: 5123
-        width: 36
-        height: 273
+        x: 3840
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5faace8042d15da80800000000000000
-      internalID: -8442809885830370571
+      spriteID: b17584037bfade64f975a7aebffc3705
+      internalID: 1581094800
       vertices: []
       indices: 
       edges: []
@@ -477,20 +477,20 @@ TextureImporter:
       name: abyss_anim_sheet_5
       rect:
         serializedVersion: 2
-        x: 6214
-        y: 5364
-        width: 30
-        height: 21
+        x: 4800
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9628b57d427e90ed0800000000000000
-      internalID: -2447170777081216407
+      spriteID: 01aac75696db90f4a81a585028208bac
+      internalID: 142157473
       vertices: []
       indices: 
       edges: []
@@ -499,20 +499,20 @@ TextureImporter:
       name: abyss_anim_sheet_6
       rect:
         serializedVersion: 2
-        x: 6691
-        y: 5117
-        width: 36
-        height: 283
+        x: 5760
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69f4c7c04f1cbcc40800000000000000
-      internalID: 5533729821080440726
+      spriteID: 8dcc397e951b755468c7fe12729fb22a
+      internalID: -739283064
       vertices: []
       indices: 
       edges: []
@@ -521,20 +521,20 @@ TextureImporter:
       name: abyss_anim_sheet_7
       rect:
         serializedVersion: 2
-        x: 7170
-        y: 5369
-        width: 34
-        height: 18
+        x: 6720
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d1ae86f9741471990800000000000000
-      internalID: -7415386485569295843
+      spriteID: d5fcdc8a4e945114aa08ff63d64d37ff
+      internalID: -1577111270
       vertices: []
       indices: 
       edges: []
@@ -543,20 +543,20 @@ TextureImporter:
       name: abyss_anim_sheet_8
       rect:
         serializedVersion: 2
-        x: 7651
-        y: 5115
-        width: 36
-        height: 277
+        x: 7680
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd4c6ca22ba48a1c0800000000000000
-      internalID: -4492258499219766051
+      spriteID: a8df6e7840193ed41b2ed4b403a9e050
+      internalID: 1551724099
       vertices: []
       indices: 
       edges: []
@@ -565,20 +565,20 @@ TextureImporter:
       name: abyss_anim_sheet_9
       rect:
         serializedVersion: 2
-        x: 7666
-        y: 5385
-        width: 15
-        height: 12
+        x: 8640
+        y: 4860
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4dff8dedd677f5610800000000000000
-      internalID: 1612138505395830740
+      spriteID: cecc1c6ba6a72c14e87944436bcc8912
+      internalID: 360787046
       vertices: []
       indices: 
       edges: []
@@ -587,20 +587,20 @@ TextureImporter:
       name: abyss_anim_sheet_10
       rect:
         serializedVersion: 2
-        x: 8125
-        y: 5299
-        width: 39
-        height: 91
+        x: 0
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2627fa0a8414bdea0800000000000000
-      internalID: -5847007911021153694
+      spriteID: 63f743cc84640754782db5fe33c67532
+      internalID: -1562474218
       vertices: []
       indices: 
       edges: []
@@ -609,20 +609,20 @@ TextureImporter:
       name: abyss_anim_sheet_11
       rect:
         serializedVersion: 2
-        x: 8611
-        y: 5127
-        width: 36
-        height: 272
+        x: 960
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 84907d004ec098a30800000000000000
-      internalID: 4217916699415349576
+      spriteID: d371e3c9b83993740b0bb95d6174d237
+      internalID: 1895531396
       vertices: []
       indices: 
       edges: []
@@ -631,20 +631,20 @@ TextureImporter:
       name: abyss_anim_sheet_12
       rect:
         serializedVersion: 2
-        x: 8661
-        y: 4798
-        width: 686
-        height: 597
+        x: 1920
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06a8646c8c07c0d40800000000000000
-      internalID: 5551936448263260768
+      spriteID: aae0839f09e1f4b459ac86535ec3d205
+      internalID: -786478346
       vertices: []
       indices: 
       edges: []
@@ -653,20 +653,20 @@ TextureImporter:
       name: abyss_anim_sheet_13
       rect:
         serializedVersion: 2
-        x: 9568
-        y: 5115
-        width: 32
-        height: 285
+        x: 2880
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e53f1eb5334d3e410800000000000000
-      internalID: 1505280017521832798
+      spriteID: 51451a1f26ddc3d4ca508f3042ad89cc
+      internalID: 791997595
       vertices: []
       indices: 
       edges: []
@@ -675,20 +675,20 @@ TextureImporter:
       name: abyss_anim_sheet_14
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 4851
-        width: 370
-        height: 460
+        x: 3840
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 96aeaeb511877d300800000000000000
-      internalID: 276821918058474089
+      spriteID: 95fdaa210e148154586c7894cdade31b
+      internalID: -1105778296
       vertices: []
       indices: 
       edges: []
@@ -697,20 +697,20 @@ TextureImporter:
       name: abyss_anim_sheet_15
       rect:
         serializedVersion: 2
-        x: 2364
-        y: 5292
-        width: 38
-        height: 92
+        x: 4800
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e86a3b51a9cdb1f40800000000000000
-      internalID: 5700392307714664078
+      spriteID: 4eea87d878aa55d43beaeb6ed60a04a4
+      internalID: 1858054041
       vertices: []
       indices: 
       edges: []
@@ -719,20 +719,20 @@ TextureImporter:
       name: abyss_anim_sheet_16
       rect:
         serializedVersion: 2
-        x: 3332
-        y: 5364
-        width: 32
-        height: 19
+        x: 5760
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 984642acd73509e10800000000000000
-      internalID: 2202352017511572617
+      spriteID: f0a23d130167d254ebf9dc1edc1f51d6
+      internalID: -1779759048
       vertices: []
       indices: 
       edges: []
@@ -741,20 +741,20 @@ TextureImporter:
       name: abyss_anim_sheet_17
       rect:
         serializedVersion: 2
-        x: 4284
-        y: 5292
-        width: 38
-        height: 92
+        x: 6720
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b222c7c529b2a3d0800000000000000
-      internalID: -3196789213563313483
+      spriteID: 8d4aa4210587e6f43bfd72151f360b11
+      internalID: 10843022
       vertices: []
       indices: 
       edges: []
@@ -763,20 +763,20 @@ TextureImporter:
       name: abyss_anim_sheet_18
       rect:
         serializedVersion: 2
-        x: 4819
-        y: 4851
-        width: 454
-        height: 460
+        x: 7680
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 408a0e267e3911460800000000000000
-      internalID: 7210707100402493444
+      spriteID: 6cbd67103c818904b98d8dddba5544d1
+      internalID: -267125151
       vertices: []
       indices: 
       edges: []
@@ -785,20 +785,20 @@ TextureImporter:
       name: abyss_anim_sheet_19
       rect:
         serializedVersion: 2
-        x: 6204
-        y: 5288
-        width: 28
-        height: 24
+        x: 8640
+        y: 4320
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47606daa5a09fc020800000000000000
-      internalID: 2364267370602956404
+      spriteID: b87651712c2cf154d8b9bc7a79d5051f
+      internalID: -190738429
       vertices: []
       indices: 
       edges: []
@@ -807,20 +807,20 @@ TextureImporter:
       name: abyss_anim_sheet_20
       rect:
         serializedVersion: 2
-        x: 6223
-        y: 5296
-        width: 15
-        height: 18
+        x: 0
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a43fcfaf2142fa00800000000000000
-      internalID: 788764557812118691
+      spriteID: 724fc5d6595fe8d4eabb188e94cb44db
+      internalID: -1159987695
       vertices: []
       indices: 
       edges: []
@@ -829,20 +829,20 @@ TextureImporter:
       name: abyss_anim_sheet_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 9600
-        height: 5171
+        x: 960
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4233da111f1fe0eb0800000000000000
-      internalID: -4751594539143318748
+      spriteID: 7e8e51d30bb54f2428eba8d836199498
+      internalID: 610403146
       vertices: []
       indices: 
       edges: []
@@ -851,20 +851,20 @@ TextureImporter:
       name: abyss_anim_sheet_22
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 5117
-        width: 7
-        height: 10
+        x: 1920
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 641a44103cc575270800000000000000
-      internalID: 8239156035907264838
+      spriteID: 6fd37581174c7b940b0f171ff3153a60
+      internalID: -1500633880
       vertices: []
       indices: 
       edges: []
@@ -873,20 +873,20 @@ TextureImporter:
       name: abyss_anim_sheet_23
       rect:
         serializedVersion: 2
-        x: 3818
-        y: 5122
-        width: 6
-        height: 6
+        x: 2880
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 073fe7fec20015170800000000000000
-      internalID: 8165307792396055408
+      spriteID: 38573869552b6c44aa6fae91722c7c11
+      internalID: 1316071111
       vertices: []
       indices: 
       edges: []
@@ -895,20 +895,20 @@ TextureImporter:
       name: abyss_anim_sheet_24
       rect:
         serializedVersion: 2
-        x: 4784
-        y: 5115
-        width: 7
-        height: 11
+        x: 3840
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2b0726ed0ee48080800000000000000
-      internalID: -9185955596465665236
+      spriteID: ef5c81281f467474490cea1bc65dd5a3
+      internalID: -63319073
       vertices: []
       indices: 
       edges: []
@@ -917,20 +917,20 @@ TextureImporter:
       name: abyss_anim_sheet_25
       rect:
         serializedVersion: 2
-        x: 6695
-        y: 5115
-        width: 16
-        height: 20
+        x: 4800
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15c79f89bde5472f0800000000000000
-      internalID: -976050921975219119
+      spriteID: 185ce807a79d1774c82cc375e7fccc6c
+      internalID: -760052827
       vertices: []
       indices: 
       edges: []
@@ -939,20 +939,20 @@ TextureImporter:
       name: abyss_anim_sheet_26
       rect:
         serializedVersion: 2
-        x: 8615
-        y: 5125
-        width: 6
-        height: 8
+        x: 5760
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c273893cea269780800000000000000
-      internalID: -8676700438017117498
+      spriteID: 3b2929d5dae85fd48954265c19a602d8
+      internalID: -65195533
       vertices: []
       indices: 
       edges: []
@@ -961,20 +961,20 @@ TextureImporter:
       name: abyss_anim_sheet_27
       rect:
         serializedVersion: 2
-        x: 8617
-        y: 5121
-        width: 8
-        height: 12
+        x: 6720
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0448885f6f991d3c0800000000000000
-      internalID: -4336515680220707776
+      spriteID: 5c91e57972b874e4c8e81a7fe5688eee
+      internalID: -34855900
       vertices: []
       indices: 
       edges: []
@@ -983,20 +983,20 @@ TextureImporter:
       name: abyss_anim_sheet_28
       rect:
         serializedVersion: 2
-        x: 8624
-        y: 5119
-        width: 17
-        height: 16
+        x: 7680
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 71be9a8e9948c2170800000000000000
-      internalID: 8155038821829438231
+      spriteID: 0636864f3d662a74095cdfe6f64762d1
+      internalID: 29699636
       vertices: []
       indices: 
       edges: []
@@ -1005,20 +1005,20 @@ TextureImporter:
       name: abyss_anim_sheet_29
       rect:
         serializedVersion: 2
-        x: 1894
-        y: 5004
-        width: 29
-        height: 101
+        x: 8640
+        y: 3780
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09194242af9021e80800000000000000
-      internalID: -8209488200790142576
+      spriteID: 5d20aab8a294ec04b98c27ad9e1d60c2
+      internalID: 1145072445
       vertices: []
       indices: 
       edges: []
@@ -1027,20 +1027,20 @@ TextureImporter:
       name: abyss_anim_sheet_30
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 5097
-        width: 8
-        height: 14
+        x: 0
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 353ceac8be95403b0800000000000000
-      internalID: -5547209972801158317
+      spriteID: 8059e8ef85c6ec843a39f048c51403c5
+      internalID: -817558933
       vertices: []
       indices: 
       edges: []
@@ -1049,20 +1049,20 @@ TextureImporter:
       name: abyss_anim_sheet_31
       rect:
         serializedVersion: 2
-        x: 2188
-        y: 5095
-        width: 7
-        height: 11
+        x: 960
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8b44c6408ac8c2fc0800000000000000
-      internalID: -3518282555626601288
+      spriteID: 2adc7c120e7dd374da7abce77b65b60d
+      internalID: 105433220
       vertices: []
       indices: 
       edges: []
@@ -1071,20 +1071,20 @@ TextureImporter:
       name: abyss_anim_sheet_32
       rect:
         serializedVersion: 2
-        x: 2198
-        y: 5101
-        width: 6
-        height: 7
+        x: 1920
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d277b3eb09b5d8280800000000000000
-      internalID: -9039468199837731027
+      spriteID: 4442d990a04405946af45a14fdb77339
+      internalID: -219226337
       vertices: []
       indices: 
       edges: []
@@ -1093,20 +1093,20 @@ TextureImporter:
       name: abyss_anim_sheet_33
       rect:
         serializedVersion: 2
-        x: 2846
-        y: 5005
-        width: 39
-        height: 113
+        x: 2880
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e055ebb866c893840800000000000000
-      internalID: 5204345216462378254
+      spriteID: 4f5eaff25db2341429d37f6292371b56
+      internalID: -1210689910
       vertices: []
       indices: 
       edges: []
@@ -1115,20 +1115,20 @@ TextureImporter:
       name: abyss_anim_sheet_34
       rect:
         serializedVersion: 2
-        x: 4108
-        y: 5095
-        width: 7
-        height: 11
+        x: 3840
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4b01bbfae09a0c60800000000000000
-      internalID: 7785194244782754639
+      spriteID: 17086e9d29b83dd4e933dab1d3798713
+      internalID: -381350044
       vertices: []
       indices: 
       edges: []
@@ -1137,20 +1137,20 @@ TextureImporter:
       name: abyss_anim_sheet_35
       rect:
         serializedVersion: 2
-        x: 4118
-        y: 5101
-        width: 6
-        height: 7
+        x: 4800
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1599d5fd0b0293c80800000000000000
-      internalID: -8342600890693346991
+      spriteID: d316cb85dba731744a185c8d1dd267d4
+      internalID: -1864174751
       vertices: []
       indices: 
       edges: []
@@ -1159,20 +1159,20 @@ TextureImporter:
       name: abyss_anim_sheet_36
       rect:
         serializedVersion: 2
-        x: 4786
-        y: 5099
-        width: 6
-        height: 12
+        x: 5760
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b26b6479039116420800000000000000
-      internalID: 2621404154593457707
+      spriteID: 70bf29688c91cc7429aa47c95a7987a5
+      internalID: 2128947588
       vertices: []
       indices: 
       edges: []
@@ -1181,20 +1181,20 @@ TextureImporter:
       name: abyss_anim_sheet_37
       rect:
         serializedVersion: 2
-        x: 5735
-        y: 5010
-        width: 28
-        height: 107
+        x: 6720
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b6d4f1fc889bdb50800000000000000
-      internalID: 6619051808473274032
+      spriteID: 54688540561ce7a478cce4dba103c67c
+      internalID: -1364891923
       vertices: []
       indices: 
       edges: []
@@ -1203,20 +1203,20 @@ TextureImporter:
       name: abyss_anim_sheet_38
       rect:
         serializedVersion: 2
-        x: 6031
-        y: 5095
-        width: 6
-        height: 11
+        x: 7680
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d97fba9d5122d8000800000000000000
-      internalID: 39725448957786013
+      spriteID: cdcd8478e7b3aed4c884c2139d04c405
+      internalID: -1328830793
       vertices: []
       indices: 
       edges: []
@@ -1225,20 +1225,20 @@ TextureImporter:
       name: abyss_anim_sheet_39
       rect:
         serializedVersion: 2
-        x: 6691
-        y: 5101
-        width: 6
-        height: 10
+        x: 8640
+        y: 3240
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d99a839472b63fdd0800000000000000
-      internalID: -2453499555510441571
+      spriteID: 654273fcebbf35e4588874c5da08cb9e
+      internalID: 977394828
       vertices: []
       indices: 
       edges: []
@@ -1247,20 +1247,20 @@ TextureImporter:
       name: abyss_anim_sheet_40
       rect:
         serializedVersion: 2
-        x: 6697
-        y: 5093
-        width: 10
-        height: 25
+        x: 0
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62bb9f5deb1d8aa80800000000000000
-      internalID: -8455277682824201434
+      spriteID: 1a24acff886fe9d42ad1180543b60bac
+      internalID: 2063491667
       vertices: []
       indices: 
       edges: []
@@ -1269,20 +1269,20 @@ TextureImporter:
       name: abyss_anim_sheet_41
       rect:
         serializedVersion: 2
-        x: 6706
-        y: 5091
-        width: 11
-        height: 29
+        x: 960
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 562fe83ab749e3890800000000000000
-      internalID: -7476375072642502043
+      spriteID: 84d3122fa78753640b2969d7443af929
+      internalID: -1644216298
       vertices: []
       indices: 
       edges: []
@@ -1291,20 +1291,20 @@ TextureImporter:
       name: abyss_anim_sheet_42
       rect:
         serializedVersion: 2
-        x: 6716
-        y: 5101
-        width: 6
-        height: 12
+        x: 1920
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f128bfe79196e320800000000000000
-      internalID: 2586915117718839799
+      spriteID: dd6fc72ab473908448721aad71520b52
+      internalID: 718299489
       vertices: []
       indices: 
       edges: []
@@ -1313,20 +1313,20 @@ TextureImporter:
       name: abyss_anim_sheet_43
       rect:
         serializedVersion: 2
-        x: 7657
-        y: 5097
-        width: 8
-        height: 8
+        x: 2880
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7b5a74d60aaa7460800000000000000
-      internalID: 7240286297262807933
+      spriteID: 687e7a78e1bd0db49b0a0ea5aee8471e
+      internalID: 379206783
       vertices: []
       indices: 
       edges: []
@@ -1335,20 +1335,20 @@ TextureImporter:
       name: abyss_anim_sheet_44
       rect:
         serializedVersion: 2
-        x: 7666
-        y: 5094
-        width: 11
-        height: 17
+        x: 3840
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f7da52ce7a876f00800000000000000
-      internalID: 1110008110201362424
+      spriteID: f4b1c06450b77d4449e45804b9d392ca
+      internalID: -1765205239
       vertices: []
       indices: 
       edges: []
@@ -1357,20 +1357,20 @@ TextureImporter:
       name: abyss_anim_sheet_45
       rect:
         serializedVersion: 2
-        x: 7953
-        y: 5097
-        width: 6
-        height: 11
+        x: 4800
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 83b6b6f1f42c1d480800000000000000
-      internalID: -8876099745485198536
+      spriteID: 525a58edbd4aa0a4d89daed2c25f4c12
+      internalID: 853109599
       vertices: []
       indices: 
       edges: []
@@ -1379,20 +1379,20 @@ TextureImporter:
       name: abyss_anim_sheet_46
       rect:
         serializedVersion: 2
-        x: 8613
-        y: 5010
-        width: 30
-        height: 103
+        x: 5760
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97e65f7cfb6570e20800000000000000
-      internalID: 3316715032275152505
+      spriteID: 31be1bf1ec64e27498562ce279ee87e4
+      internalID: 1909163755
       vertices: []
       indices: 
       edges: []
@@ -1401,20 +1401,20 @@ TextureImporter:
       name: abyss_anim_sheet_47
       rect:
         serializedVersion: 2
-        x: 8617
-        y: 5091
-        width: 6
-        height: 24
+        x: 6720
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86e415194b517d380800000000000000
-      internalID: -8946658269471879576
+      spriteID: 0830db739cdd78248bb188113173bc6f
+      internalID: -657507398
       vertices: []
       indices: 
       edges: []
@@ -1423,20 +1423,20 @@ TextureImporter:
       name: abyss_anim_sheet_48
       rect:
         serializedVersion: 2
-        x: 8623
-        y: 5091
-        width: 9
-        height: 29
+        x: 7680
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d8ec56374c9ae8f90800000000000000
-      internalID: -6949430513771360627
+      spriteID: c9cb64c75e4b0f04b810249e947575d5
+      internalID: -1271825105
       vertices: []
       indices: 
       edges: []
@@ -1445,20 +1445,20 @@ TextureImporter:
       name: abyss_anim_sheet_49
       rect:
         serializedVersion: 2
-        x: 8911
-        y: 5103
-        width: 6
-        height: 10
+        x: 8640
+        y: 2700
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f84624e728fd0f80800000000000000
-      internalID: -8138576101373490959
+      spriteID: 9cadd93d5fe15d74ea4c4e47b5a92954
+      internalID: 902687053
       vertices: []
       indices: 
       edges: []
@@ -1467,20 +1467,20 @@ TextureImporter:
       name: abyss_anim_sheet_50
       rect:
         serializedVersion: 2
-        x: 9573
-        y: 5007
-        width: 27
-        height: 98
+        x: 0
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76e0e46ce8d6c3620800000000000000
-      internalID: 2755197532023688807
+      spriteID: 2d18dcf2f93671d46b3f879fdec17d10
+      internalID: -1004387914
       vertices: []
       indices: 
       edges: []
@@ -1489,20 +1489,20 @@ TextureImporter:
       name: abyss_anim_sheet_51
       rect:
         serializedVersion: 2
-        x: 9586
-        y: 5099
-        width: 6
-        height: 12
+        x: 960
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c52160accfe42de70800000000000000
-      internalID: 9138453441516278364
+      spriteID: b9cb82cc19be54f4f921aaeaecfdf231
+      internalID: 1228037787
       vertices: []
       indices: 
       edges: []
@@ -1511,20 +1511,20 @@ TextureImporter:
       name: abyss_anim_sheet_52
       rect:
         serializedVersion: 2
-        x: 2179
-        y: 5093
-        width: 6
-        height: 7
+        x: 1920
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f589339447f2908b0800000000000000
-      internalID: -5185561319449585569
+      spriteID: e4052b076200b2148a8463feb3418539
+      internalID: 1662993635
       vertices: []
       indices: 
       edges: []
@@ -1533,20 +1533,20 @@ TextureImporter:
       name: abyss_anim_sheet_53
       rect:
         serializedVersion: 2
-        x: 2194
-        y: 5093
-        width: 6
-        height: 7
+        x: 2880
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2b3c7c9ecf3d0cc0800000000000000
-      internalID: -3743265558653813972
+      spriteID: 95da6f198810b8b49a2fc585284864c7
+      internalID: -1673561470
       vertices: []
       indices: 
       edges: []
@@ -1555,20 +1555,20 @@ TextureImporter:
       name: abyss_anim_sheet_54
       rect:
         serializedVersion: 2
-        x: 2198
-        y: 5089
-        width: 6
-        height: 7
+        x: 3840
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9920dc63da6172750800000000000000
-      internalID: 6280013138596004505
+      spriteID: b70c155d33612904fbd2ddf61782c470
+      internalID: 312848566
       vertices: []
       indices: 
       edges: []
@@ -1577,20 +1577,20 @@ TextureImporter:
       name: abyss_anim_sheet_55
       rect:
         serializedVersion: 2
-        x: 2204
-        y: 5095
-        width: 6
-        height: 7
+        x: 4800
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0db33ed49d750070800000000000000
-      internalID: 8071995985468046607
+      spriteID: d868bc325de21604cb59c0e4913259ad
+      internalID: -1744277463
       vertices: []
       indices: 
       edges: []
@@ -1599,20 +1599,20 @@ TextureImporter:
       name: abyss_anim_sheet_56
       rect:
         serializedVersion: 2
-        x: 3815
-        y: 5008
-        width: 28
-        height: 88
+        x: 5760
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e3a6afe345ed3080800000000000000
-      internalID: -9205949983329180697
+      spriteID: 6fdf9e55934e33c47a559eea04419c49
+      internalID: 839481548
       vertices: []
       indices: 
       edges: []
@@ -1621,20 +1621,20 @@ TextureImporter:
       name: abyss_anim_sheet_57
       rect:
         serializedVersion: 2
-        x: 4099
-        y: 5093
-        width: 6
-        height: 7
+        x: 6720
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0fc783fadc0f11000800000000000000
-      internalID: 5049840802757872
+      spriteID: 82d5a319ab18ef9408962de43c8e61fe
+      internalID: 346619329
       vertices: []
       indices: 
       edges: []
@@ -1643,20 +1643,20 @@ TextureImporter:
       name: abyss_anim_sheet_58
       rect:
         serializedVersion: 2
-        x: 4114
-        y: 5093
-        width: 6
-        height: 7
+        x: 7680
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef6f2ea62d0e548e0800000000000000
-      internalID: -1709713289176221954
+      spriteID: f2570c13b6451d44da30e63edacdbc1b
+      internalID: 417415084
       vertices: []
       indices: 
       edges: []
@@ -1665,20 +1665,20 @@ TextureImporter:
       name: abyss_anim_sheet_59
       rect:
         serializedVersion: 2
-        x: 4118
-        y: 5089
-        width: 6
-        height: 7
+        x: 8640
+        y: 2160
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f11595c3bb673bf0800000000000000
-      internalID: -344688426612354568
+      spriteID: 651ea23152fb28845b41bed270eac733
+      internalID: -2095249275
       vertices: []
       indices: 
       edges: []
@@ -1687,20 +1687,20 @@ TextureImporter:
       name: abyss_anim_sheet_60
       rect:
         serializedVersion: 2
-        x: 4124
-        y: 5095
-        width: 6
-        height: 7
+        x: 0
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9bc6e34db7aa30f30800000000000000
-      internalID: 4540660298138152121
+      spriteID: db15f9c4c5968434481b827c1fbbf29d
+      internalID: 2115946160
       vertices: []
       indices: 
       edges: []
@@ -1709,20 +1709,20 @@ TextureImporter:
       name: abyss_anim_sheet_61
       rect:
         serializedVersion: 2
-        x: 4775
-        y: 5010
-        width: 28
-        height: 85
+        x: 960
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ccae7c2a77c7f1680800000000000000
-      internalID: -8782163895075214644
+      spriteID: 3e7d4082e1d7f49479d6bcf931aebb8b
+      internalID: -661807559
       vertices: []
       indices: 
       edges: []
@@ -1731,20 +1731,20 @@ TextureImporter:
       name: abyss_anim_sheet_62
       rect:
         serializedVersion: 2
-        x: 4786
-        y: 5091
-        width: 6
-        height: 8
+        x: 1920
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b064222d362498e00800000000000000
-      internalID: 1047441384835008011
+      spriteID: dbdbfbf6e8e23a1408fcb9a0712048f0
+      internalID: -448628680
       vertices: []
       indices: 
       edges: []
@@ -1753,20 +1753,20 @@ TextureImporter:
       name: abyss_anim_sheet_63
       rect:
         serializedVersion: 2
-        x: 4796
-        y: 5093
-        width: 6
-        height: 8
+        x: 2880
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13b00795253442790800000000000000
-      internalID: -7555840253853955279
+      spriteID: 6240e063a3f4fb643b9b8c856908900d
+      internalID: 1472042013
       vertices: []
       indices: 
       edges: []
@@ -1775,20 +1775,20 @@ TextureImporter:
       name: abyss_anim_sheet_64
       rect:
         serializedVersion: 2
-        x: 6695
-        y: 5013
-        width: 28
-        height: 85
+        x: 3840
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 103cd846cc9d76ce0800000000000000
-      internalID: -1411920486273793279
+      spriteID: c37eaa74262e1564b83d3de18668b537
+      internalID: -1624249967
       vertices: []
       indices: 
       edges: []
@@ -1797,20 +1797,20 @@ TextureImporter:
       name: abyss_anim_sheet_65
       rect:
         serializedVersion: 2
-        x: 7655
-        y: 5017
-        width: 28
-        height: 78
+        x: 4800
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22df60e0ad7748190800000000000000
-      internalID: -7961106462862279390
+      spriteID: 9a782dcfaa3c97f47b3cf13b8916fdfc
+      internalID: -1981081556
       vertices: []
       indices: 
       edges: []
@@ -1819,20 +1819,20 @@ TextureImporter:
       name: abyss_anim_sheet_66
       rect:
         serializedVersion: 2
-        x: 1885
-        y: 5014
-        width: 13
-        height: 76
+        x: 5760
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f045d816b230b69f0800000000000000
-      internalID: -474281850902326257
+      spriteID: f17ab7f1bc32d2c4ea398a35a972dfac
+      internalID: 512541124
       vertices: []
       indices: 
       edges: []
@@ -1841,20 +1841,20 @@ TextureImporter:
       name: abyss_anim_sheet_67
       rect:
         serializedVersion: 2
-        x: 2188
-        y: 5087
-        width: 6
-        height: 7
+        x: 6720
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 164349e6458e8c6a0800000000000000
-      internalID: -6428633018741279647
+      spriteID: 82bf40ae0a84d1142b8b0d0b211cb264
+      internalID: 827180000
       vertices: []
       indices: 
       edges: []
@@ -1863,20 +1863,20 @@ TextureImporter:
       name: abyss_anim_sheet_68
       rect:
         serializedVersion: 2
-        x: 3806
-        y: 5014
-        width: 12
-        height: 74
+        x: 7680
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3293a233e4e9fc320800000000000000
-      internalID: 2580455170209626403
+      spriteID: 9bf3e5f4c75925b4fb877b0299745cad
+      internalID: -753791189
       vertices: []
       indices: 
       edges: []
@@ -1885,20 +1885,20 @@ TextureImporter:
       name: abyss_anim_sheet_69
       rect:
         serializedVersion: 2
-        x: 4108
-        y: 5087
-        width: 6
-        height: 7
+        x: 8640
+        y: 1620
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4463f1e0fc94d33b0800000000000000
-      internalID: -5531183613697116604
+      spriteID: 137f4f3d2f124424a81f1f1ebbc43f18
+      internalID: -1859608050
       vertices: []
       indices: 
       edges: []
@@ -1907,20 +1907,20 @@ TextureImporter:
       name: abyss_anim_sheet_70
       rect:
         serializedVersion: 2
-        x: 4766
-        y: 5016
-        width: 12
-        height: 71
+        x: 0
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ff754b3c6c9fcf10800000000000000
-      internalID: 2292222724019683321
+      spriteID: 6cbc0e17297a3874d99bf8215a47f042
+      internalID: -1214387560
       vertices: []
       indices: 
       edges: []
@@ -1929,20 +1929,20 @@ TextureImporter:
       name: abyss_anim_sheet_71
       rect:
         serializedVersion: 2
-        x: 5726
-        y: 5016
-        width: 12
-        height: 76
+        x: 960
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9700430210d609930800000000000000
-      internalID: 4147935108410900601
+      spriteID: 6d297a0f731435b4ea77993d978d9bbe
+      internalID: 1250111302
       vertices: []
       indices: 
       edges: []
@@ -1951,20 +1951,20 @@ TextureImporter:
       name: abyss_anim_sheet_72
       rect:
         serializedVersion: 2
-        x: 6686
-        y: 5019
-        width: 12
-        height: 71
+        x: 1920
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69a29f06cf4473ec0800000000000000
-      internalID: -3587322727427921258
+      spriteID: 67969f13f82c5754ab78c80153fd5134
+      internalID: -1476556946
       vertices: []
       indices: 
       edges: []
@@ -1973,20 +1973,20 @@ TextureImporter:
       name: abyss_anim_sheet_73
       rect:
         serializedVersion: 2
-        x: 7646
-        y: 5023
-        width: 12
-        height: 64
+        x: 2880
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f53981bdf3b1a5d10800000000000000
-      internalID: 2115032936076579679
+      spriteID: b5e3880480b202845b86080e1ec9a02d
+      internalID: -1851369113
       vertices: []
       indices: 
       edges: []
@@ -1995,20 +1995,20 @@ TextureImporter:
       name: abyss_anim_sheet_74
       rect:
         serializedVersion: 2
-        x: 8606
-        y: 5016
-        width: 12
-        height: 75
+        x: 3840
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a775f27e7dcfd2910800000000000000
-      internalID: 1814384229126985594
+      spriteID: 63a50cc38129c9842b805da4316f38c6
+      internalID: 805895999
       vertices: []
       indices: 
       edges: []
@@ -2017,20 +2017,20 @@ TextureImporter:
       name: abyss_anim_sheet_75
       rect:
         serializedVersion: 2
-        x: 9564
-        y: 5013
-        width: 14
-        height: 78
+        x: 4800
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8b0354d001397cc60800000000000000
-      internalID: 7838395373613035704
+      spriteID: 2800849ab29da4f48b92db458264926d
+      internalID: 1002129065
       vertices: []
       indices: 
       edges: []
@@ -2039,20 +2039,20 @@ TextureImporter:
       name: abyss_anim_sheet_76
       rect:
         serializedVersion: 2
-        x: 1940
-        y: 4851
-        width: 296
-        height: 230
+        x: 5760
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81e16bad997cab010800000000000000
-      internalID: 1205495313888321048
+      spriteID: a8162d43831fc784592ac109b51007cb
+      internalID: -1260851744
       vertices: []
       indices: 
       edges: []
@@ -2061,20 +2061,20 @@ TextureImporter:
       name: abyss_anim_sheet_77
       rect:
         serializedVersion: 2
-        x: 2900
-        y: 4851
-        width: 351
-        height: 231
+        x: 6720
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d43e9cea9f7128a40800000000000000
-      internalID: 5368880066925814605
+      spriteID: fc27c2a6819609a4db87f28d8a14bd86
+      internalID: -1754138798
       vertices: []
       indices: 
       edges: []
@@ -2083,20 +2083,20 @@ TextureImporter:
       name: abyss_anim_sheet_78
       rect:
         serializedVersion: 2
-        x: 3859
-        y: 4851
-        width: 391
-        height: 229
+        x: 7680
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d0b8ffc873ae9ee0800000000000000
-      internalID: -1252383907081834280
+      spriteID: ac9240142d6fb844bbdde4d2ddb71994
+      internalID: 1707652530
       vertices: []
       indices: 
       edges: []
@@ -2105,20 +2105,20 @@ TextureImporter:
       name: abyss_anim_sheet_79
       rect:
         serializedVersion: 2
-        x: 5780
-        y: 4826
-        width: 394
-        height: 254
+        x: 8640
+        y: 1080
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0339fe2dafdfd7440800000000000000
-      internalID: 4935380020390499120
+      spriteID: 5ca11ebecc5d3bb47a9442c4f4a85100
+      internalID: 307798329
       vertices: []
       indices: 
       edges: []
@@ -2127,20 +2127,20 @@ TextureImporter:
       name: abyss_anim_sheet_80
       rect:
         serializedVersion: 2
-        x: 6739
-        y: 4795
-        width: 607
-        height: 289
+        x: 0
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80dacf227603e7010800000000000000
-      internalID: 1188440571199139080
+      spriteID: 4b786ded09c34294abfb8c7c65a13169
+      internalID: -1379801776
       vertices: []
       indices: 
       edges: []
@@ -2149,20 +2149,20 @@ TextureImporter:
       name: abyss_anim_sheet_81
       rect:
         serializedVersion: 2
-        x: 6784
-        y: 5079
-        width: 7
-        height: 7
+        x: 960
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ae22cae53aecb9b0800000000000000
-      internalID: -5062914363778519386
+      spriteID: b41e08ef9bba54e47965bfffd7ebf7b8
+      internalID: 538968104
       vertices: []
       indices: 
       edges: []
@@ -2171,20 +2171,20 @@ TextureImporter:
       name: abyss_anim_sheet_82
       rect:
         serializedVersion: 2
-        x: 7699
-        y: 4798
-        width: 600
-        height: 284
+        x: 1920
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8bea7be298b225220800000000000000
-      internalID: 2473087013574127288
+      spriteID: d5a7f4aacfff4c54dbea380a20cadea7
+      internalID: 2047270158
       vertices: []
       indices: 
       edges: []
@@ -2193,20 +2193,20 @@ TextureImporter:
       name: abyss_anim_sheet_83
       rect:
         serializedVersion: 2
-        x: 7697
-        y: 5042
-        width: 7
-        height: 7
+        x: 2880
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf8aef27caa63c760800000000000000
-      internalID: 7476937095261366524
+      spriteID: de2887cfcc2a2ec47b0c53c03b70a413
+      internalID: -1810257011
       vertices: []
       indices: 
       edges: []
@@ -2215,20 +2215,20 @@ TextureImporter:
       name: abyss_anim_sheet_84
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 5005
-        width: 8
-        height: 10
+        x: 3840
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b67a181d1e0948be0800000000000000
-      internalID: -1475895478313703573
+      spriteID: d71a37a4320f77543aabac18b422fd56
+      internalID: 209326870
       vertices: []
       indices: 
       edges: []
@@ -2237,20 +2237,20 @@ TextureImporter:
       name: abyss_anim_sheet_85
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 4999
-        width: 14
-        height: 22
+        x: 4800
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ffa562674bc14a30800000000000000
-      internalID: 4197859835139960819
+      spriteID: 06b473aebfc60cf42b3c9c6b41c68324
+      internalID: 1412882461
       vertices: []
       indices: 
       edges: []
@@ -2259,20 +2259,20 @@ TextureImporter:
       name: abyss_anim_sheet_86
       rect:
         serializedVersion: 2
-        x: 1195
-        y: 5013
-        width: 8
-        height: 10
+        x: 5760
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9217003396b2833e0800000000000000
-      internalID: -2073859897576885975
+      spriteID: f0853190878769b49bb0d4d9e448d3b1
+      internalID: -799885248
       vertices: []
       indices: 
       edges: []
@@ -2281,20 +2281,20 @@ TextureImporter:
       name: abyss_anim_sheet_87
       rect:
         serializedVersion: 2
-        x: 1195
-        y: 5001
-        width: 14
-        height: 16
+        x: 6720
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5517829726be74850800000000000000
-      internalID: 6361311806856130901
+      spriteID: 11e09f57888a537459ac3617e7e89ee2
+      internalID: -1734919798
       vertices: []
       indices: 
       edges: []
@@ -2303,20 +2303,262 @@ TextureImporter:
       name: abyss_anim_sheet_88
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 5000
-        width: 7
-        height: 8
+        x: 7680
+        y: 540
+        width: 960
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c947b9f72d5c48c00800000000000000
-      internalID: 902063333255640220
+      spriteID: d4a6fe4994c03804f9f59a27db892f61
+      internalID: 930120206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 540
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5026cf67620a2f243ba298538cb2f4cd
+      internalID: 1248205856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822a01a6eb32177448cc02b41cf5c5f1
+      internalID: 2118209203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c03ff5cc2f71294d8c65562cfc9f808
+      internalID: -439760632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830c7141b9ff417469c89db151d65a63
+      internalID: -959745496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f81df707e086824187e270969125773
+      internalID: -1965941499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3163424d00d743e4d9a7a57502f19c86
+      internalID: 1092407614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb3ac9d49b211f4aa84d9608aea9a55
+      internalID: 1112917111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7462e9e6a8d8a10468504c6973c2e4b3
+      internalID: -399374040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b61cffab40d14a4d9f01e4abffed5d0
+      internalID: -1647243263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fe25e178040ae41bbd9396efa70942
+      internalID: 851475118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abyss_anim_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 960
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79040269aceefc847b9b8df49c715785
+      internalID: 387250011
       vertices: []
       indices: 
       edges: []
@@ -2325,7 +2567,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 26a6e8b248e25fa4c9d3c92c5c41af83
     internalID: 0
     vertices: []
     indices: 
@@ -2334,7 +2576,107 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      abyss_anim_sheet_0: 828950975
+      abyss_anim_sheet_1: 580072457
+      abyss_anim_sheet_10: -1562474218
+      abyss_anim_sheet_11: 1895531396
+      abyss_anim_sheet_12: -786478346
+      abyss_anim_sheet_13: 791997595
+      abyss_anim_sheet_14: -1105778296
+      abyss_anim_sheet_15: 1858054041
+      abyss_anim_sheet_16: -1779759048
+      abyss_anim_sheet_17: 10843022
+      abyss_anim_sheet_18: -267125151
+      abyss_anim_sheet_19: -190738429
+      abyss_anim_sheet_2: -1374756411
+      abyss_anim_sheet_20: -1159987695
+      abyss_anim_sheet_21: 610403146
+      abyss_anim_sheet_22: -1500633880
+      abyss_anim_sheet_23: 1316071111
+      abyss_anim_sheet_24: -63319073
+      abyss_anim_sheet_25: -760052827
+      abyss_anim_sheet_26: -65195533
+      abyss_anim_sheet_27: -34855900
+      abyss_anim_sheet_28: 29699636
+      abyss_anim_sheet_29: 1145072445
+      abyss_anim_sheet_3: 1791699268
+      abyss_anim_sheet_30: -817558933
+      abyss_anim_sheet_31: 105433220
+      abyss_anim_sheet_32: -219226337
+      abyss_anim_sheet_33: -1210689910
+      abyss_anim_sheet_34: -381350044
+      abyss_anim_sheet_35: -1864174751
+      abyss_anim_sheet_36: 2128947588
+      abyss_anim_sheet_37: -1364891923
+      abyss_anim_sheet_38: -1328830793
+      abyss_anim_sheet_39: 977394828
+      abyss_anim_sheet_4: 1581094800
+      abyss_anim_sheet_40: 2063491667
+      abyss_anim_sheet_41: -1644216298
+      abyss_anim_sheet_42: 718299489
+      abyss_anim_sheet_43: 379206783
+      abyss_anim_sheet_44: -1765205239
+      abyss_anim_sheet_45: 853109599
+      abyss_anim_sheet_46: 1909163755
+      abyss_anim_sheet_47: -657507398
+      abyss_anim_sheet_48: -1271825105
+      abyss_anim_sheet_49: 902687053
+      abyss_anim_sheet_5: 142157473
+      abyss_anim_sheet_50: -1004387914
+      abyss_anim_sheet_51: 1228037787
+      abyss_anim_sheet_52: 1662993635
+      abyss_anim_sheet_53: -1673561470
+      abyss_anim_sheet_54: 312848566
+      abyss_anim_sheet_55: -1744277463
+      abyss_anim_sheet_56: 839481548
+      abyss_anim_sheet_57: 346619329
+      abyss_anim_sheet_58: 417415084
+      abyss_anim_sheet_59: -2095249275
+      abyss_anim_sheet_6: -739283064
+      abyss_anim_sheet_60: 2115946160
+      abyss_anim_sheet_61: -661807559
+      abyss_anim_sheet_62: -448628680
+      abyss_anim_sheet_63: 1472042013
+      abyss_anim_sheet_64: -1624249967
+      abyss_anim_sheet_65: -1981081556
+      abyss_anim_sheet_66: 512541124
+      abyss_anim_sheet_67: 827180000
+      abyss_anim_sheet_68: -753791189
+      abyss_anim_sheet_69: -1859608050
+      abyss_anim_sheet_7: -1577111270
+      abyss_anim_sheet_70: -1214387560
+      abyss_anim_sheet_71: 1250111302
+      abyss_anim_sheet_72: -1476556946
+      abyss_anim_sheet_73: -1851369113
+      abyss_anim_sheet_74: 805895999
+      abyss_anim_sheet_75: 1002129065
+      abyss_anim_sheet_76: -1260851744
+      abyss_anim_sheet_77: -1754138798
+      abyss_anim_sheet_78: 1707652530
+      abyss_anim_sheet_79: 307798329
+      abyss_anim_sheet_8: 1551724099
+      abyss_anim_sheet_80: -1379801776
+      abyss_anim_sheet_81: 538968104
+      abyss_anim_sheet_82: 2047270158
+      abyss_anim_sheet_83: -1810257011
+      abyss_anim_sheet_84: 209326870
+      abyss_anim_sheet_85: 1412882461
+      abyss_anim_sheet_86: -799885248
+      abyss_anim_sheet_87: -1734919798
+      abyss_anim_sheet_88: 930120206
+      abyss_anim_sheet_89: 1248205856
+      abyss_anim_sheet_9: 360787046
+      abyss_anim_sheet_90: 2118209203
+      abyss_anim_sheet_91: -439760632
+      abyss_anim_sheet_92: -959745496
+      abyss_anim_sheet_93: -1965941499
+      abyss_anim_sheet_94: 1092407614
+      abyss_anim_sheet_95: 1112917111
+      abyss_anim_sheet_96: -399374040
+      abyss_anim_sheet_97: -1647243263
+      abyss_anim_sheet_98: 851475118
+      abyss_anim_sheet_99: 387250011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

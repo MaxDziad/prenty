@@ -59,12 +59,7 @@ public class PortalBehaviour : MonoBehaviour
 		_pawnTransform = perceptible.FlashlightSource.transform;
 		StopCoroutine();
 		_currentHandle = StartCoroutine(DestroyingRoutine());
-
-
-
 	}
-
-
 
 	private void StopCoroutine()
 	{
@@ -78,7 +73,7 @@ public class PortalBehaviour : MonoBehaviour
 	{
 		while (_currentTime < _maxDestroyTime)
 		{
-			if (Physics.Linecast(_raycastSource.position, _pawnTransform.position, _layerMask,
+			if (!Physics.Linecast(_raycastSource.position, _pawnTransform.position, _layerMask,
 				QueryTriggerInteraction.Ignore))
 			{
 				_currentTime += Time.deltaTime;
