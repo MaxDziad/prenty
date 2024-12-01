@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1527071311083000112}
   - component: {fileID: 6853726633812043728}
   - component: {fileID: 637225312299639408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: O_Collider
   m_TagString: ShadowObstacle
   m_Icon: {fileID: 0}

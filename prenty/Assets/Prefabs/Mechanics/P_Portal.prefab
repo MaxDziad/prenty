@@ -101,6 +101,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b2238c4b16d374a9db7ee7b3a50904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  _raycastSource: {fileID: 3688216008533846038}
   _flashlightPerceptor: {fileID: 2787116202624734553}
   _maxDestroyTime: 2
   _damagedTreshold: 0.33

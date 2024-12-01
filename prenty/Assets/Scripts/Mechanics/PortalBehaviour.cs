@@ -6,9 +6,12 @@ public class PortalBehaviour : MonoBehaviour
 {
 	public event Action OnPortalDestructionEvent;
 	public event Action<PortalDestructionStage> OnPortalStageChangedEvent;
-    
-    [SerializeField]
-    private Transform _raycastSource;
+
+	[SerializeField]
+	private LayerMask _layerMask;
+
+	[SerializeField]
+	private Transform _raycastSource;
 
 	[SerializeField]
 	private FlashlightPerceptor _flashlightPerceptor;
@@ -25,6 +28,7 @@ public class PortalBehaviour : MonoBehaviour
 	private float _currentTime;
 	private Coroutine _currentHandle;
 	private PortalDestructionStage _destructionStage = PortalDestructionStage.None;
+	private Transform _pawnTransform;
 
 	public PortalDestructionStage DestructionStage
 	{
@@ -52,17 +56,15 @@ public class PortalBehaviour : MonoBehaviour
 
 	private void OnSeeingFlashlight(FlashlightPerceptible perceptible)
 	{
-		
+		_pawnTransform = perceptible.FlashlightSource.transform;
 		StopCoroutine();
 		_currentHandle = StartCoroutine(DestroyingRoutine());
-		
-		
+
+
+
 	}
 
-	private bool IsFlashlightVisible(Vector3 pawnPosition)
-	{
-		
-	}
+
 
 	private void StopCoroutine()
 	{
@@ -76,8 +78,12 @@ public class PortalBehaviour : MonoBehaviour
 	{
 		while (_currentTime < _maxDestroyTime)
 		{
-			_currentTime += Time.deltaTime;
-			TrySignalStageChange(_currentTime / _maxDestroyTime);
+			if (Physics.Linecast(_raycastSource.position, _pawnTransform.position, _layerMask,
+				QueryTriggerInteraction.Ignore))
+			{
+				_currentTime += Time.deltaTime;
+				TrySignalStageChange(_currentTime / _maxDestroyTime);
+			}
 			yield return null;
 		}
 
@@ -129,6 +135,7 @@ public class PortalBehaviour : MonoBehaviour
 	{
 		StopCoroutine();
 		_currentHandle = StartCoroutine(RestoringRoutine());
+		_pawnTransform = null;
 	}
 
 	private void OnDestroy()
