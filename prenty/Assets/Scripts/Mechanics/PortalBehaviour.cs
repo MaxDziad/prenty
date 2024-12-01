@@ -6,6 +6,7 @@ public class PortalBehaviour : MonoBehaviour
 {
 	public event Action OnPortalDestructionEvent;
 	public event Action<PortalDestructionStage> OnPortalStageChangedEvent;
+	public event Action<float> OnPortalDestructionProgressEvent;
 
 	[SerializeField]
 	private LayerMask _layerMask;
@@ -77,6 +78,7 @@ public class PortalBehaviour : MonoBehaviour
 				QueryTriggerInteraction.Ignore))
 			{
 				_currentTime += Time.deltaTime;
+				OnPortalDestructionProgressEvent?.Invoke(_currentTime / _maxDestroyTime);
 				TrySignalStageChange(_currentTime / _maxDestroyTime);
 			}
 			yield return null;
@@ -119,6 +121,7 @@ public class PortalBehaviour : MonoBehaviour
 		while (_currentTime > 0)
 		{
 			_currentTime -= Time.deltaTime;
+			OnPortalDestructionProgressEvent?.Invoke(_currentTime / _maxDestroyTime);
 			TrySignalStageChange(_currentTime / _maxDestroyTime);
 			yield return null;
 		}

@@ -90,8 +90,6 @@ public class ChasingState : AbstractAiState
 
 		float elapsedTime = 0f;
 		Color color = material.color;
-		float startAlpha = 1;
-		float endAlpha = 0;
 
 		while (elapsedTime < _fadeDuration)
 		{
