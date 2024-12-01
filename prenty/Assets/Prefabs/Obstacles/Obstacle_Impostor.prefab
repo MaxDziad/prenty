@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 3775622152071489487}
   m_Layer: 0
   m_Name: O_Collider
-  m_TagString: Untagged
+  m_TagString: ShadowObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
