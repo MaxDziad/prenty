@@ -18,6 +18,9 @@ public class ChasingState : AbstractAiState
 	[SerializeField]
 	private float _chaseCheckTime = 3f;
 
+	[SerializeField]
+	private float _fadeDuration = 1.0f;
+
 	private float _currentTime;
 	private Coroutine _chaseHandle;
 	private Transform _targetTransform;
@@ -73,7 +76,30 @@ public class ChasingState : AbstractAiState
 
 	public override void OnFinish()
 	{
+		StartCoroutine(FadeMaterial());
 		StopCoroutine(_chaseHandle);
 		_animator.enabled = false;
+
+	}
+
+	private IEnumerator FadeMaterial()
+	{
+		Debug.Log("Fading starrted");
+		Renderer renderer = _agentSpider.GetComponentInChildren<Renderer>();
+		Material material = renderer.material;
+
+		float elapsedTime = 0f;
+		Color color = material.color;
+		float startAlpha = 1;
+		float endAlpha = 0;
+
+		while (elapsedTime < _fadeDuration)
+		{
+			elapsedTime += Time.deltaTime;
+			color.a = Mathf.Lerp(1, 0, elapsedTime);
+			material.color = color;
+			yield return null;
+		}
+		Debug.Log("Fading ended");
 	}
 }

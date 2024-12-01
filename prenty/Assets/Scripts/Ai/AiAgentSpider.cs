@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -19,10 +20,14 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 	[SerializeField]
 	private ChasingState _chasingState;
 
+	[SerializeField]
+	private GameObject _visuals;
+
 	private AbstractAiState _currentState;
 	private NavMeshAgent _navmeshAgent;
 	private FlashlightPerceptible _flashlightPerceptible;
 	private bool _isReady;
+	private float _fadeDuration = 1.0f;
 
 	public FlashlightPerceptible FlashlightPerceptible => _flashlightPerceptible;
 	public NavMeshAgent Agent => _navmeshAgent;
@@ -111,8 +116,7 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 		_chasingState.OnChaseFinishedEvent -= OnChaseFinished;
 		_currentState.OnFinish();
 
-		_currentState = _chillingState;
-		_currentState.OnStart();
+		StartCoroutine(FadeMaterial());
 	}
 
 	public void Destroy()
@@ -126,5 +130,33 @@ public class AiAgentSpider : MonoBehaviour, ISceneObject
 		}
 
 		Destroy(gameObject);
+	}
+
+	private IEnumerator FadeMaterial()
+	{
+		Debug.Log("Fading starrted");
+		Renderer renderer = _visuals.GetComponentInChildren<Renderer>();
+		Material material = renderer.material;
+
+		float elapsedTime = 0f;
+		Color color = material.color;
+
+		while (elapsedTime < _fadeDuration)
+		{
+			elapsedTime += Time.deltaTime;
+			color.a = Mathf.Lerp(1, 0, elapsedTime / _fadeDuration);
+			material.color = color;
+			yield return null;
+		}
+
+		OnFadeFinished();
+		Debug.Log("Fading ended");
+	}
+
+	private void OnFadeFinished()
+	{
+		Debug.Log("No i koniec");
+		_currentState = _chillingState;
+		_currentState.OnStart();
 	}
 }

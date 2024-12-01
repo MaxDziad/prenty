@@ -129,6 +129,7 @@ MonoBehaviour:
   _chillingState: {fileID: 2867488350524332808}
   _triggeringState: {fileID: 7946998159282374661}
   _chasingState: {fileID: 400341541990792601}
+  _visuals: {fileID: 3099148415526374624}
 --- !u!1 &2929463727633005953
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,3 +703,4 @@ MonoBehaviour:
   _speed: 3
   _acceleraation: 8
   _chaseCheckTime: 3
+  _fadeDuration: 1
